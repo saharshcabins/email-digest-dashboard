@@ -218,8 +218,11 @@ document.getElementById("pwd-input").addEventListener("keydown", e => {
   if (e.key === "Enter") checkPassword();
 });
 
-// Clear any stale session auth on every fresh page load
-sessionStorage.removeItem("digest-auth");
+// Stay unlocked across refreshes within the same tab session
+if (sessionStorage.getItem("digest-auth") === "1") {
+  document.getElementById("auth-screen").style.display = "none";
+  loadDigest();
+}
 </script>
 
 <script>
