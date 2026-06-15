@@ -140,6 +140,82 @@
   <div class="empty">Loading digest…</div>
 </div>
 
+<style>
+  #auth-screen {
+    position: fixed; inset: 0;
+    background: var(--white-linen);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 999;
+  }
+  .auth-box {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 32px 28px;
+    width: 100%; max-width: 340px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    text-align: center;
+  }
+  .auth-box h2 { font-size: 1.2rem; margin-bottom: 6px; }
+  .auth-box p  { font-size: 0.8rem; color: var(--green-moss); margin-bottom: 20px; }
+  .auth-box input {
+    width: 100%; padding: 10px 12px;
+    border: 1px solid var(--grey-steel); border-radius: 6px;
+    font-size: 0.95rem; margin-bottom: 12px;
+    outline: none; box-sizing: border-box;
+  }
+  .auth-box input:focus { border-color: var(--orange-clay); }
+  .auth-box button {
+    width: 100%; padding: 10px;
+    background: var(--orange-clay); color: #fff;
+    border: none; border-radius: 6px;
+    font-size: 0.95rem; font-weight: 700; cursor: pointer;
+  }
+  .auth-box button:hover { opacity: 0.9; }
+  .auth-error { color: #b71c1c; font-size: 0.8rem; margin-top: 8px; display: none; }
+</style>
+
+<div id="auth-screen">
+  <div class="auth-box">
+    <h2>📬 Email Digest</h2>
+    <p>Private dashboard — enter password to continue</p>
+    <input type="password" id="pwd-input" placeholder="Password" />
+    <button onclick="checkPassword()">Unlock</button>
+    <div class="auth-error" id="auth-error">Incorrect password. Try again.</div>
+  </div>
+</div>
+
+<script>
+// Password stored as SHA-256 hash — not plaintext
+const HASH = "14f97bf0e540ba3662ca2059749de9953bafe7ce4f2a9bd86f585258577ed137";
+
+async function sha256(str) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,"0")).join("");
+}
+
+async function checkPassword() {
+  const val = document.getElementById("pwd-input").value;
+  const hash = await sha256(val);
+  if (hash === HASH) {
+    sessionStorage.setItem("digest-auth", "1");
+    document.getElementById("auth-screen").style.display = "none";
+    loadDigest();
+  } else {
+    document.getElementById("auth-error").style.display = "block";
+    document.getElementById("pwd-input").value = "";
+  }
+}
+
+document.getElementById("pwd-input").addEventListener("keydown", e => {
+  if (e.key === "Enter") checkPassword();
+});
+
+// Auto-unlock if already authenticated this session
+if (sessionStorage.getItem("digest-auth") === "1") {
+  document.getElementById("auth-screen").style.display = "none";
+}
+</script>
+
 <script>
 async function loadDigest() {
   const contentEl = document.getElementById('content');
