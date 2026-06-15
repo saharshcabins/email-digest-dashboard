@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Digest</title>
+<style>
+  :root {
+    --orange-clay: #C97A41;
+    --green-moss: #6A7350;
+    --white-linen: #F5F2EB;
+    --dark-stone: #0F1B26;
+    --grey-steel: #C8CBCF;
+    --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Inter", "Segoe UI", Roboto, sans-serif;
+    background: var(--white-linen);
+    color: var(--dark-stone);
+    padding: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  header {
+    padding: 16px 0 12px;
+    border-bottom: 2px solid var(--grey-steel);
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .meta {
+    font-size: 0.8rem;
+    color: var(--green-moss);
+    margin-top: 4px;
+  }
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--green-moss);
+  }
+  .card {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--grey-steel);
+  }
+  .card.high { border-left-color: var(--orange-clay); }
+  .card.medium { border-left-color: var(--green-moss); }
+  .card.low { border-left-color: var(--grey-steel); }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .priority-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: var(--white);
+    white-space: nowrap;
+  }
+  .priority-badge.high { background: var(--orange-clay); }
+  .priority-badge.medium { background: var(--green-moss); }
+  .priority-badge.low { background: var(--grey-steel); color: var(--dark-stone); }
+
+  .subject {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+  }
+  .from {
+    font-size: 0.8rem;
+    color: var(--dark-stone);
+    opacity: 0.7;
+    margin-bottom: 4px;
+  }
+  .account-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    background: var(--white-linen);
+    border: 1px solid var(--grey-steel);
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .snippet {
+    font-size: 0.85rem;
+    color: var(--dark-stone);
+    opacity: 0.8;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+  .reason {
+    font-size: 0.8rem;
+    color: var(--green-moss);
+    font-style: italic;
+  }
+  .date {
+    font-size: 0.7rem;
+    color: var(--dark-stone);
+    opacity: 0.5;
+    margin-top: 6px;
+  }
+  .error {
+    background: #fdecea;
+    color: #b71c1c;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>📬 Email Digest</h1>
+  <div class="meta" id="meta">Loading…</div>
+</header>
+<div id="content">
+  <div class="empty">Loading digest…</div>
+</div>
+
+<script>
+async function loadDigest() {
+  const contentEl = document.getElementById('content');
+  const metaEl = document.getElementById('meta');
+
+  try {
+    const res = await fetch('digest.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    const generated = new Date(data.generated_at);
+    metaEl.textContent = `Last checked: ${generated.toLocaleString()} · ${data.total_important} important of ${data.total_checked} checked`;
+
+    if (!data.important || data.important.length === 0) {
+      contentEl.innerHTML = '<div class="empty">No important emails right now.</div>';
+      return;
+    }
+
+    contentEl.innerHTML = data.important.map(renderCard).join('');
+  } catch (e) {
+    metaEl.textContent = '';
+    contentEl.innerHTML = `<div class="error">Could not load digest: ${e.message}</div>`;
+  }
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
+function renderCard(item) {
+  const priority = item.priority || 'low';
+  const date = new Date(item.date);
+  return `
+    <div class="card ${priority}">
+      <div class="card-top">
+        <div class="subject">${escapeHtml(item.subject)}</div>
+        <span class="priority-badge ${priority}">${priority}</span>
+      </div>
+      <div class="from">${escapeHtml(item.from)}</div>
+      <div class="account-tag">${escapeHtml(item.account_label)}</div>
+      <div class="snippet">${escapeHtml(item.snippet)}</div>
+      <div class="reason">💡 ${escapeHtml(item.reason)}</div>
+      <div class="date">${date.toLocaleString()}</div>
+    </div>
+  `;
+}
+
+loadDigest();
+</script>
+</body>
+</html>
