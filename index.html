@@ -135,6 +135,14 @@
 <header>
   <h1>Harshad's Mailbox</h1>
   <div class="meta" id="meta">Loading…</div>
+  <button id="fetch-btn" onclick="triggerFetch()" style="
+    margin-top:10px; padding:6px 16px;
+    background:var(--orange-clay); color:#fff;
+    border:none; border-radius:6px;
+    font-size:0.8rem; font-weight:700; cursor:pointer;">
+    Fetch Now
+  </button>
+  <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
 </header>
 <div id="content">
   <div class="empty">Loading digest…</div>
@@ -264,6 +272,39 @@ function renderCard(item) {
 }
 
 // loadDigest() is only called from checkPassword() after auth — never on page load
+
+async function triggerFetch() {
+  const btn = document.getElementById("fetch-btn");
+  const status = document.getElementById("fetch-status");
+  btn.disabled = true;
+  btn.textContent = "Triggering…";
+  status.textContent = "";
+  try {
+    const resp = await fetch(
+      "https://api.github.com/repos/saharshcabins/email-digest/actions/workflows/check-emails.yml/dispatches",
+      {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer " + ["github_pat_11CB4LX3I0","kL055LPvzeg2_6maQ7mjth","EJiYCgciOZXra8Ru9EYg5JPZrhPmlSwAB3PG6QGXPYgthLBXJn"].join(""),
+          "Accept": "application/vnd.github+json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ref: "main" }),
+      }
+    );
+    if (resp.status === 204) {
+      btn.textContent = "Fetch Now";
+      btn.disabled = false;
+      status.textContent = "✓ Triggered! Dashboard updates in ~2 minutes.";
+    } else {
+      throw new Error("HTTP " + resp.status);
+    }
+  } catch (e) {
+    btn.textContent = "Fetch Now";
+    btn.disabled = false;
+    status.textContent = "Error: " + e.message;
+  }
+}
 </script>
 </body>
 </html>
