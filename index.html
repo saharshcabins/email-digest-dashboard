@@ -47,6 +47,9 @@
     padding: 14px 16px;
     margin-bottom: 12px;
     border-left: 4px solid var(--grey-steel);
+    overflow: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
   .card.high { border-left-color: var(--orange-clay); }
   .card.medium { border-left-color: var(--green-moss); }
@@ -58,6 +61,7 @@
     align-items: baseline;
     gap: 8px;
     margin-bottom: 4px;
+    min-width: 0;
   }
   .priority-badge {
     font-size: 0.65rem;
@@ -76,6 +80,10 @@
     font-weight: 700;
     font-size: 0.95rem;
     margin-bottom: 2px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .from {
     font-size: 0.8rem;
@@ -98,6 +106,10 @@
     opacity: 0.8;
     margin-bottom: 6px;
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .reason {
     font-size: 0.8rem;
