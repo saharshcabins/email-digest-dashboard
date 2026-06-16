@@ -1,82 +1,42 @@
 {
-  "generated_at": "2026-06-16T17:18:20.516601+00:00",
-  "total_checked": 26,
-  "total_important": 3,
-  "important": [
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Anjum Shafiulla Khan",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-16T07:48:46+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Anjum Shafiulla Khan Phone: 9663085004 Email: anjumkhan74@gmail.com Project Location: Tumkur Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: WhatsApp Notes: Want to build a 2BHK house in my Farm House at Tumkur,",
-      "attachments": [],
-      "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching 'new enquiries and leads' rule.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Anjum Shafiulla Khan",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-16T07:48:46+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Anjum Shafiulla Khan Phone: 9663085004 Email: anjumkhan74@gmail.com Project Location: Tumkur Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: WhatsApp Notes: Want to build a 2BHK house in my Farm House at Tumkur,",
-      "attachments": [],
-      "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching 'new enquiries and leads' rule.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Tue 16 Jun 2026 14:30 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-16T08:30:16+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Tuesday 16 Jun 2026 ⋅ 14:30 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/yvd-rexe-nma?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=NW5xaDdydjU1ZXFhcHBobzE4dWZ1NG9kOTVfMjAyNjA2MTZUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNjQxZDcyNTRlOWVjZTI5N2Y0NTA4YzNkY2U0ZmJiNTdlNzZiZWFiOQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=NW5xaDdydjU1ZXFhcHBobzE4dWZ1NG9kOTVfMjAyNjA2MTZUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNjQxZDcyNTRlOWVjZTI5N2Y0NTA4YzNkY2U0ZmJiNTdlNzZiZWFiOQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google",
-      "attachments": [],
-      "message_id": "calendar-fe83f846-09e0-4ad6-bded-5ab811ad8ab9@google.com",
-      "important": true,
-      "reason": "Calendar notification for a 'Saharsh' discussion, indicating a project-related meeting.",
-      "priority": "medium"
-    }
-  ],
+  "generated_at": "2026-06-16T20:39:15.944374+00:00",
+  "total_checked": 15,
+  "total_important": 0,
+  "important": [],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 3,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 13,
+      "count": 7,
       "error": null
     },
     {
       "label": "IIT KGP Gmail",
       "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 8,
+      "count": 5,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     }
   ]
