@@ -1,6 +1,33 @@
 {
-  "generated_at": "2026-06-16T07:26:18.167350+00:00",
-  "total_checked": 1470,
-  "total_important": 0,
-  "important": []
+  "generated_at": "2026-06-16T09:26:55.499788+00:00",
+  "total_checked": 1324,
+  "total_important": 2,
+  "important": [
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "Security alert",
+      "from": "Google <no-reply@accounts.google.com>",
+      "date": "2025-02-19T17:34:41+00:00",
+      "snippet": "[image: Google] Recovery email was changed for saharshcabins@gmail.com The recovery email for your account was changed. If you didn't change it, you should check what happened. Check activity <https://accounts.google.com/AccountChooser?Email=saharshcabins@gmail.com&continue=https://myaccount.google.com/alert/nt/1739986481161?rfn%3D2%26rfnc%3D1%26eid%3D-7965996897599533261%26et%3D0> You can also see security activity at https://myaccount.google.com/notifications You received this email to let you know about important changes to your Google Account and services. © 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "attachments": [],
+      "message_id": "HXIqvZnQ3rE38Py9I_S_-Q@notifications.google.com",
+      "important": true,
+      "reason": "Security alert for Saharsh Cabins account: recovery email changed, requires immediate action.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "Security alert",
+      "from": "Google <no-reply@accounts.google.com>",
+      "date": "2025-02-19T17:34:32+00:00",
+      "snippet": "[image: Google] Recovery phone was changed saharshcabins@gmail.com The recovery phone for your account was changed. If you didn't change it, you should check what happened. Check activity <https://accounts.google.com/AccountChooser?Email=saharshcabins@gmail.com&continue=https://myaccount.google.com/alert/nt/1739986472686?rfn%3D4%26rfnc%3D1%26eid%3D4452836450702409193%26et%3D0> You can also see security activity at https://myaccount.google.com/notifications You received this email to let you know about important changes to your Google Account and services. © 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "attachments": [],
+      "message_id": "bgjXp2ZqTHtTKWu80Jnhfw@notifications.google.com",
+      "important": true,
+      "reason": "Security alert for Saharsh Cabins account: recovery phone changed, requires immediate action.",
+      "priority": "high"
+    }
+  ]
 }
