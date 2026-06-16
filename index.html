@@ -18,10 +18,80 @@
     font-family: -apple-system, "Inter", "Segoe UI", Roboto, sans-serif;
     background: var(--white-linen);
     color: var(--dark-stone);
-    padding: 16px;
-    max-width: 700px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
   }
+  .app-shell {
+    display: grid;
+    grid-template-columns: 200px minmax(0,1fr);
+    max-width: 1040px;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  .main-content { padding: 16px 20px; min-width: 0; }
+  @media (max-width: 720px) {
+    .app-shell { grid-template-columns: 1fr; }
+  }
+
+  .sidebar {
+    background: var(--white);
+    border-right: 1px solid var(--grey-steel);
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  @media (max-width: 720px) {
+    .sidebar {
+      flex-direction: row;
+      flex-wrap: wrap;
+      border-right: none;
+      border-bottom: 1px solid var(--grey-steel);
+      padding: 12px 14px;
+      align-items: center;
+    }
+    .sidebar-section-title { width: 100%; }
+  }
+  .sidebar-brand {
+    font-size: 0.95rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+  @media (max-width: 720px) { .sidebar-brand { width: 100%; margin-bottom: 8px; } }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--dark-stone);
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  .nav-item:hover { background: var(--white-linen); }
+  .nav-item.active { background: var(--white-linen); opacity: 1; font-weight: 700; color: var(--orange-clay); }
+  .nav-item.disabled { opacity: 0.4; cursor: default; }
+  .nav-item.disabled:hover { background: none; }
+  .sidebar-section-title {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--green-moss);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 16px 0 4px;
+    padding: 0 8px;
+  }
+  .account-row {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 8px;
+    font-size: 0.78rem;
+  }
+  .account-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .account-dot.ok  { background: #3B6D11; }
+  .account-dot.err { background: #A32D2D; }
   header {
     padding: 16px 0 12px;
     margin-bottom: 8px;
@@ -246,10 +316,6 @@
   .auth-error { color: #b71c1c; font-size: 0.8rem; margin-top: 8px; display: none; }
 
   .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-  .brand-label {
-    font-size: 0.7rem; color: var(--green-moss); font-weight: 700;
-    text-transform: uppercase; letter-spacing: 0.04em;
-  }
   .greeting { font-size: 1.15rem; font-weight: 800; margin-top: 2px; }
   .user-avatar {
     width: 36px; height: 36px; border-radius: 50%;
@@ -257,16 +323,6 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 0.8rem; font-weight: 700; flex-shrink: 0;
   }
-  .sync-strip { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
-  .sync-pill {
-    display: flex; align-items: center; gap: 5px;
-    font-size: 0.68rem; padding: 3px 9px; border-radius: 999px;
-    background: var(--white); border: 1px solid var(--grey-steel);
-    color: var(--dark-stone);
-  }
-  .sync-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-  .sync-dot.ok  { background: #3B6D11; }
-  .sync-dot.err { background: #A32D2D; }
 
   .stat-cards {
     display: grid; grid-template-columns: repeat(4, minmax(0,1fr));
@@ -303,43 +359,57 @@
   </div>
 </div>
 
-<header>
-  <div class="header-top">
-    <div>
-      <div class="brand-label">Harshad's Mailbox</div>
-      <div class="greeting" id="greeting">Loading…</div>
+<div class="app-shell">
+
+  <aside class="sidebar">
+    <div class="sidebar-brand">Harshad's Mailbox</div>
+    <div class="nav-item active" data-nav="inbox" onclick="setNav('inbox')">Inbox</div>
+    <div class="nav-item" data-nav="high" onclick="setNav('high')">High priority</div>
+    <div class="nav-item" data-nav="handled" onclick="setNav('handled')">Handled</div>
+    <div class="nav-item disabled" title="Coming soon">Insights</div>
+    <div class="sidebar-section-title">Accounts</div>
+    <div id="sidebar-accounts"></div>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <div class="header-top">
+        <div>
+          <div class="greeting" id="greeting">Loading…</div>
+          <div class="meta" id="meta"></div>
+        </div>
+        <div class="user-avatar">HC</div>
+      </div>
+      <button id="fetch-btn" onclick="triggerFetch()" style="
+        margin-top:10px; padding:6px 16px;
+        background:var(--orange-clay); color:#fff;
+        border:none; border-radius:6px;
+        font-size:0.8rem; font-weight:700; cursor:pointer;">
+        Fetch Now
+      </button>
+      <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
+    </header>
+
+    <div class="stat-cards" id="stat-cards"></div>
+
+    <div class="toolbar">
+      <input type="text" class="search-input" id="search-input" placeholder="Search sender, subject, or content…" />
+      <div class="filter-row">
+        <div class="filter-chips" id="filter-chips">
+          <span class="chip active" data-pri="all" onclick="setFilter('all')">All</span>
+          <span class="chip" data-pri="high" onclick="setFilter('high')">High</span>
+          <span class="chip" data-pri="medium" onclick="setFilter('medium')">Medium</span>
+          <span class="chip" data-pri="low" onclick="setFilter('low')">Low</span>
+        </div>
+        <span class="handled-toggle" id="handled-toggle" onclick="toggleShowHandled()">Handled (0)</span>
+      </div>
     </div>
-    <div class="user-avatar">HC</div>
-  </div>
-  <div class="meta" id="meta"></div>
-  <div class="sync-strip" id="sync-strip"></div>
-  <button id="fetch-btn" onclick="triggerFetch()" style="
-    margin-top:10px; padding:6px 16px;
-    background:var(--orange-clay); color:#fff;
-    border:none; border-radius:6px;
-    font-size:0.8rem; font-weight:700; cursor:pointer;">
-    Fetch Now
-  </button>
-  <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
-</header>
 
-<div class="stat-cards" id="stat-cards"></div>
-
-<div class="toolbar">
-  <input type="text" class="search-input" id="search-input" placeholder="Search sender, subject, or content…" />
-  <div class="filter-row">
-    <div class="filter-chips" id="filter-chips">
-      <span class="chip active" data-pri="all" onclick="setFilter('all')">All</span>
-      <span class="chip" data-pri="high" onclick="setFilter('high')">High</span>
-      <span class="chip" data-pri="medium" onclick="setFilter('medium')">Medium</span>
-      <span class="chip" data-pri="low" onclick="setFilter('low')">Low</span>
+    <div id="content">
+      <div class="empty">Loading digest…</div>
     </div>
-    <span class="handled-toggle" id="handled-toggle" onclick="toggleShowHandled()">Handled (0)</span>
-  </div>
-</div>
+  </main>
 
-<div id="content">
-  <div class="empty">Loading digest…</div>
 </div>
 
 <script>
@@ -415,6 +485,25 @@ function toggleShowHandled() {
   render();
 }
 
+function setNav(key) {
+  if (key === 'inbox') { activeFilter = 'all'; showHandled = false; }
+  else if (key === 'high') { activeFilter = 'high'; showHandled = false; }
+  else if (key === 'handled') { showHandled = true; }
+  render();
+}
+
+function syncNavActive() {
+  let activeKey = 'inbox';
+  if (showHandled) activeKey = 'handled';
+  else if (activeFilter === 'high') activeKey = 'high';
+  document.querySelectorAll('.nav-item[data-nav]').forEach(el => {
+    el.classList.toggle('active', el.dataset.nav === activeKey);
+  });
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.toggle('active', !showHandled && c.dataset.pri === activeFilter);
+  });
+}
+
 function setGreeting() {
   const hour = new Date().getHours();
   let part = "morning";
@@ -424,12 +513,12 @@ function setGreeting() {
 }
 
 function renderSyncStrip(accountStatus) {
-  const el = document.getElementById('sync-strip');
+  const el = document.getElementById('sidebar-accounts');
   if (!accountStatus || accountStatus.length === 0) { el.innerHTML = ''; return; }
   el.innerHTML = accountStatus.map(a => {
     const cls = a.ok ? 'ok' : 'err';
     const title = a.ok ? `${a.count} fetched` : (a.error || 'failed');
-    return `<span class="sync-pill" title="${escapeHtml(title)}"><span class="sync-dot ${cls}"></span>${escapeHtml(a.label)}</span>`;
+    return `<div class="account-row" title="${escapeHtml(title)}"><span class="account-dot ${cls}"></span>${escapeHtml(a.label)}</div>`;
   }).join('');
 }
 
@@ -506,9 +595,7 @@ async function loadDigest() {
 
 function setFilter(pri) {
   activeFilter = pri;
-  document.querySelectorAll('.chip').forEach(c => {
-    c.classList.toggle('active', c.dataset.pri === pri);
-  });
+  showHandled = false;
   render();
 }
 
@@ -535,6 +622,8 @@ function formatTime(d, group) {
 function render() {
   const contentEl = document.getElementById('content');
   const query = document.getElementById('search-input').value.trim().toLowerCase();
+
+  syncNavActive();
 
   const handledCount = allItems.filter(isHandled).length;
   const handledToggleEl = document.getElementById('handled-toggle');
