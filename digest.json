@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T16:07:35.417820+00:00",
-  "total_checked": 27,
-  "total_important": 6,
+  "generated_at": "2026-06-16T16:19:58.941636+00:00",
+  "total_checked": 26,
+  "total_important": 5,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
+      "reason": "New lead from Saharsh Cabins contact form, matching 'new enquiries and leads' rule.",
       "priority": "high"
     },
     {
@@ -26,7 +26,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
+      "reason": "New lead from Saharsh Cabins contact form, matching 'new enquiries and leads' rule.",
       "priority": "high"
     },
     {
@@ -39,20 +39,7 @@
       "attachments": [],
       "message_id": "calendar-fe83f846-09e0-4ad6-bded-5ab811ad8ab9@google.com",
       "important": true,
-      "reason": "Calendar notification for 'Saharsh - US Discussion' event.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Google Cloud Platform & APIs: We've received your payment for 015C91-BF959C-118575",
-      "from": "Google Payments <payments-noreply@google.com>",
-      "date": "2026-06-16T00:04:29-07:00",
-      "snippet": "Google Cloud Platform & APIs Payment received Your payment of ₹1,000.00 (reference CLOUD P4WBSP on Mastercard • • • • 6007) was applied to Google Cloud Platform & APIs on 16 Jun 2026. ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about important changes to Google Cloud Platform & APIs or your account. Google",
-      "attachments": [],
-      "message_id": "8a53be7796ac7fea9cc4f0468e2deaef70349674-516505-100075571@google.com",
-      "important": true,
-      "reason": "Payment confirmation from Google Payments.",
+      "reason": "Calendar notification for a 'Saharsh' discussion, indicating a project-related meeting.",
       "priority": "medium"
     },
     {
@@ -65,7 +52,7 @@
       "attachments": [],
       "message_id": "bad7e7f2a0ad08b11126c27695c4f72adfd04561-20097276-110599669@google.com",
       "important": true,
-      "reason": "Action required for tax information update from Google Payments.",
+      "reason": "Request to update tax info from Google Payments, related to financial documents.",
       "priority": "medium"
     },
     {
@@ -78,7 +65,7 @@
       "attachments": [],
       "message_id": "56df48d4d1142b9d5e2b4a77a43da4b0c5d848d7-20097276-110599669@google.com",
       "important": true,
-      "reason": "Action required for tax information update from Google Payments.",
+      "reason": "Request to update tax info from Google Payments, related to financial documents.",
       "priority": "medium"
     }
   ],
@@ -92,7 +79,7 @@
     {
       "label": "Personal Gmail (harrychandak)",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "error": null
     },
     {
