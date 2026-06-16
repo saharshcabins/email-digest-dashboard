@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-16T09:26:55.499788+00:00",
-  "total_checked": 1324,
+  "generated_at": "2026-06-16T10:51:41.623578+00:00",
+  "total_checked": 19,
   "total_important": 2,
   "important": [
     {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "Security alert",
-      "from": "Google <no-reply@accounts.google.com>",
-      "date": "2025-02-19T17:34:41+00:00",
-      "snippet": "[image: Google] Recovery email was changed for saharshcabins@gmail.com The recovery email for your account was changed. If you didn't change it, you should check what happened. Check activity <https://accounts.google.com/AccountChooser?Email=saharshcabins@gmail.com&continue=https://myaccount.google.com/alert/nt/1739986481161?rfn%3D2%26rfnc%3D1%26eid%3D-7965996897599533261%26et%3D0> You can also see security activity at https://myaccount.google.com/notifications You received this email to let you know about important changes to your Google Account and services. © 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Google Cloud Platform & APIs: Update your tax info",
+      "from": "Google Payments <payments-noreply@google.com>",
+      "date": "2026-06-16T00:01:37-07:00",
+      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKTh2pAHihh5euQUcWIUzn4uwuYsieSDS1a6q24iDSnw7xOjDRPiZeBZj3ekoaUuWvCiDxCszt8LcSzWL2trxf5DFj8DyH8WK7jJpZS04GMbpUGGsoiRoDfsqkSZ09qUSDL9wbzevMk5faeNYw85cZCAcsZXYxaChjT6qm932xpBna8> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
       "attachments": [],
-      "message_id": "HXIqvZnQ3rE38Py9I_S_-Q@notifications.google.com",
+      "message_id": "bad7e7f2a0ad08b11126c27695c4f72adfd04561-20097276-110599669@google.com",
       "important": true,
-      "reason": "Security alert for Saharsh Cabins account: recovery email changed, requires immediate action.",
-      "priority": "high"
+      "reason": "Action required for tax/invoice information from a known institution.",
+      "priority": "medium"
     },
     {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "Security alert",
-      "from": "Google <no-reply@accounts.google.com>",
-      "date": "2025-02-19T17:34:32+00:00",
-      "snippet": "[image: Google] Recovery phone was changed saharshcabins@gmail.com The recovery phone for your account was changed. If you didn't change it, you should check what happened. Check activity <https://accounts.google.com/AccountChooser?Email=saharshcabins@gmail.com&continue=https://myaccount.google.com/alert/nt/1739986472686?rfn%3D4%26rfnc%3D1%26eid%3D4452836450702409193%26et%3D0> You can also see security activity at https://myaccount.google.com/notifications You received this email to let you know about important changes to your Google Account and services. © 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Google Cloud Platform & APIs: Update your tax info",
+      "from": "Google Payments <payments-noreply@google.com>",
+      "date": "2026-06-16T00:01:29-07:00",
+      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKQwhkGSHAJsmo0Gz4rhPYNGxXw1lv_YnKP9vuMmj2qrYSo_19g2fqQZQamoJg-b4Dh7U6lQFX6d1AUNPplaMwJWDZVv_tYqfVtgjHouI-8Ty5Y-YaNaKgYWmFDrYFnoFjBMM_q5FMnuvR_O3PDNVbmNqZn1SOC0P90_1kz4ma3NSzs> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
       "attachments": [],
-      "message_id": "bgjXp2ZqTHtTKWu80Jnhfw@notifications.google.com",
+      "message_id": "56df48d4d1142b9d5e2b4a77a43da4b0c5d848d7-20097276-110599669@google.com",
       "important": true,
-      "reason": "Security alert for Saharsh Cabins account: recovery phone changed, requires immediate action.",
-      "priority": "high"
+      "reason": "Action required for tax/invoice information from a known institution.",
+      "priority": "medium"
     }
   ]
 }
