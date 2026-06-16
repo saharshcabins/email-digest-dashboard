@@ -24,8 +24,7 @@
   }
   header {
     padding: 16px 0 12px;
-    border-bottom: 2px solid var(--grey-steel);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
   h1 {
     font-size: 1.4rem;
@@ -41,87 +40,6 @@
     padding: 60px 20px;
     color: var(--green-moss);
   }
-  .card {
-    background: var(--white);
-    border-radius: 10px;
-    padding: 14px 16px;
-    margin-bottom: 12px;
-    border-left: 4px solid var(--grey-steel);
-    overflow: hidden;
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
-  .card.high { border-left-color: var(--orange-clay); }
-  .card.medium { border-left-color: var(--green-moss); }
-  .card.low { border-left-color: var(--grey-steel); }
-
-  .card-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 8px;
-    margin-bottom: 4px;
-    min-width: 0;
-  }
-  .priority-badge {
-    font-size: 0.65rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 4px;
-    color: var(--white);
-    white-space: nowrap;
-  }
-  .priority-badge.high { background: var(--orange-clay); }
-  .priority-badge.medium { background: var(--green-moss); }
-  .priority-badge.low { background: var(--grey-steel); color: var(--dark-stone); }
-
-  .subject {
-    font-weight: 700;
-    font-size: 0.95rem;
-    margin-bottom: 2px;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .from {
-    font-size: 0.8rem;
-    color: var(--dark-stone);
-    opacity: 0.7;
-    margin-bottom: 4px;
-  }
-  .account-tag {
-    display: inline-block;
-    font-size: 0.7rem;
-    background: var(--white-linen);
-    border: 1px solid var(--grey-steel);
-    padding: 1px 6px;
-    border-radius: 4px;
-    margin-bottom: 6px;
-  }
-  .snippet {
-    font-size: 0.85rem;
-    color: var(--dark-stone);
-    opacity: 0.8;
-    margin-bottom: 6px;
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .reason {
-    font-size: 0.8rem;
-    color: var(--green-moss);
-    font-style: italic;
-  }
-  .date {
-    font-size: 0.7rem;
-    color: var(--dark-stone);
-    opacity: 0.5;
-    margin-top: 6px;
-  }
   .error {
     background: #fdecea;
     color: #b71c1c;
@@ -129,26 +47,172 @@
     border-radius: 8px;
     font-size: 0.85rem;
   }
-</style>
-</head>
-<body>
-<header>
-  <h1>Harshad's Mailbox</h1>
-  <div class="meta" id="meta">Loading…</div>
-  <button id="fetch-btn" onclick="triggerFetch()" style="
-    margin-top:10px; padding:6px 16px;
-    background:var(--orange-clay); color:#fff;
-    border:none; border-radius:6px;
-    font-size:0.8rem; font-weight:700; cursor:pointer;">
-    Fetch Now
-  </button>
-  <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
-</header>
-<div id="content">
-  <div class="empty">Loading digest…</div>
-</div>
 
-<style>
+  /* Sticky toolbar: search + filter chips */
+  .toolbar {
+    position: sticky;
+    top: 0;
+    background: var(--white-linen);
+    padding: 10px 0;
+    border-bottom: 2px solid var(--grey-steel);
+    margin-bottom: 14px;
+    z-index: 10;
+  }
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--grey-steel);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    outline: none;
+    margin-bottom: 8px;
+    background: var(--white);
+    color: var(--dark-stone);
+  }
+  .search-input:focus { border-color: var(--orange-clay); }
+  .filter-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--grey-steel);
+    background: var(--white);
+    color: var(--dark-stone);
+    cursor: pointer;
+    opacity: 0.65;
+  }
+  .chip.active { opacity: 1; border-color: transparent; color: var(--white); }
+  .chip.active[data-pri="all"]    { background: var(--dark-stone); }
+  .chip.active[data-pri="high"]   { background: var(--orange-clay); }
+  .chip.active[data-pri="medium"] { background: var(--green-moss); }
+  .chip.active[data-pri="low"]    { background: var(--grey-steel); color: var(--dark-stone); }
+
+  /* Date group headers */
+  .date-group-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--green-moss);
+    margin: 18px 4px 8px;
+  }
+  .date-group-label:first-child { margin-top: 0; }
+
+  /* Inbox list container */
+  .inbox-list {
+    background: var(--white);
+    border-radius: 10px;
+    border: 1px solid var(--grey-steel);
+    overflow: hidden;
+  }
+
+  /* Row */
+  .row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--white-linen);
+    border-left: 3px solid var(--grey-steel);
+    cursor: pointer;
+  }
+  .row:last-child { border-bottom: none; }
+  .row:hover { background: var(--white-linen); }
+  .row.high   { border-left-color: var(--orange-clay); }
+  .row.medium { border-left-color: var(--green-moss); }
+  .row.low    { border-left-color: var(--grey-steel); }
+
+  .avatar {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.7rem; font-weight: 700;
+    flex-shrink: 0;
+    color: var(--white);
+  }
+
+  .row-main { flex: 1; min-width: 0; }
+  .row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    min-width: 0;
+  }
+  .row-subject {
+    font-weight: 700;
+    font-size: 0.9rem;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .row-time {
+    font-size: 0.7rem;
+    color: var(--dark-stone);
+    opacity: 0.55;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .row-preview {
+    font-size: 0.8rem;
+    color: var(--dark-stone);
+    opacity: 0.7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+
+  /* Expanded detail */
+  .row-detail {
+    display: none;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--white-linen);
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+  .row.expanded .row-detail { display: block; }
+  .row.expanded .row-preview { display: none; }
+  .row-detail .from-line {
+    font-size: 0.75rem;
+    color: var(--dark-stone);
+    opacity: 0.65;
+    margin-bottom: 6px;
+  }
+  .row-detail .snippet-full {
+    margin-bottom: 6px;
+  }
+  .row-detail .attachment-line {
+    font-size: 0.75rem;
+    color: var(--dark-stone);
+    opacity: 0.7;
+    margin-bottom: 6px;
+  }
+  .row-detail .reason-full {
+    color: var(--green-moss);
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+  .action-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .reply-btn, .open-btn {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .reply-btn { background: var(--orange-clay); color: var(--white); }
+  .open-btn { background: var(--green-moss); color: var(--white); }
+  .reply-btn:hover, .open-btn:hover { opacity: 0.9; }
+
   #auth-screen {
     position: fixed; inset: 0;
     background: var(--white-linen);
@@ -181,6 +245,8 @@
   .auth-box button:hover { opacity: 0.9; }
   .auth-error { color: #b71c1c; font-size: 0.8rem; margin-top: 8px; display: none; }
 </style>
+</head>
+<body>
 
 <div id="auth-screen">
   <div class="auth-box">
@@ -190,6 +256,33 @@
     <button onclick="checkPassword()">Unlock</button>
     <div class="auth-error" id="auth-error">Incorrect password. Try again.</div>
   </div>
+</div>
+
+<header>
+  <h1>Harshad's Mailbox</h1>
+  <div class="meta" id="meta">Loading…</div>
+  <button id="fetch-btn" onclick="triggerFetch()" style="
+    margin-top:10px; padding:6px 16px;
+    background:var(--orange-clay); color:#fff;
+    border:none; border-radius:6px;
+    font-size:0.8rem; font-weight:700; cursor:pointer;">
+    Fetch Now
+  </button>
+  <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
+</header>
+
+<div class="toolbar">
+  <input type="text" class="search-input" id="search-input" placeholder="Search sender, subject, or content…" />
+  <div class="filter-chips" id="filter-chips">
+    <span class="chip active" data-pri="all" onclick="setFilter('all')">All</span>
+    <span class="chip" data-pri="high" onclick="setFilter('high')">High</span>
+    <span class="chip" data-pri="medium" onclick="setFilter('medium')">Medium</span>
+    <span class="chip" data-pri="low" onclick="setFilter('low')">Low</span>
+  </div>
+</div>
+
+<div id="content">
+  <div class="empty">Loading digest…</div>
 </div>
 
 <script>
@@ -226,6 +319,37 @@ if (sessionStorage.getItem("digest-auth") === "1") {
 </script>
 
 <script>
+let allItems = [];
+let activeFilter = "all";
+let rowDataMap = {};
+
+const ACCOUNT_COLORS = [
+  "#C97A41", // clay
+  "#6A7350", // moss
+  "#3D6A82", // slate blue
+  "#8C4F73", // plum
+  "#7A6A4F", // tan
+];
+
+function colorForLabel(label) {
+  let hash = 0;
+  for (let i = 0; i < (label || "").length; i++) hash += label.charCodeAt(i);
+  return ACCOUNT_COLORS[hash % ACCOUNT_COLORS.length];
+}
+
+function initialsForLabel(label) {
+  if (!label) return "?";
+  const words = label.replace(/[()]/g, "").split(/\s+/).filter(Boolean);
+  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
+  return label.substring(0, 2).toUpperCase();
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
+
 async function loadDigest() {
   const contentEl = document.getElementById('content');
   const metaEl = document.getElementById('meta');
@@ -238,43 +362,186 @@ async function loadDigest() {
     const generated = new Date(data.generated_at);
     metaEl.textContent = `Last checked: ${generated.toLocaleString()} · ${data.total_important} important of ${data.total_checked} checked`;
 
-    if (!data.important || data.important.length === 0) {
-      contentEl.innerHTML = '<div class="empty">No important emails right now.</div>';
-      return;
-    }
-
-    contentEl.innerHTML = data.important.map(renderCard).join('');
+    allItems = data.important || [];
+    render();
   } catch (e) {
     metaEl.textContent = '';
     contentEl.innerHTML = `<div class="error">Could not load digest: ${e.message}</div>`;
   }
 }
 
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str || '';
-  return div.innerHTML;
+function setFilter(pri) {
+  activeFilter = pri;
+  document.querySelectorAll('.chip').forEach(c => {
+    c.classList.toggle('active', c.dataset.pri === pri);
+  });
+  render();
 }
 
-function renderCard(item) {
+document.getElementById('search-input').addEventListener('input', render);
+
+function groupLabel(d) {
+  const now = new Date();
+  const startToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const startYesterday = new Date(startToday); startYesterday.setDate(startYesterday.getDate() - 1);
+  const startWeek = new Date(startToday); startWeek.setDate(startWeek.getDate() - 7);
+  if (d >= startToday) return "Today";
+  if (d >= startYesterday) return "Yesterday";
+  if (d >= startWeek) return "Earlier this week";
+  return "Older";
+}
+
+function formatTime(d, group) {
+  if (group === "Today") {
+    return d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  }
+  return d.toLocaleDateString([], { month: 'short', day: 'numeric' });
+}
+
+function render() {
+  const contentEl = document.getElementById('content');
+  const query = document.getElementById('search-input').value.trim().toLowerCase();
+
+  let items = allItems.filter(item => {
+    if (activeFilter !== "all" && (item.priority || "low") !== activeFilter) return false;
+    if (query) {
+      const haystack = `${item.subject} ${item.from} ${item.snippet} ${item.account_label}`.toLowerCase();
+      if (!haystack.includes(query)) return false;
+    }
+    return true;
+  });
+
+  if (items.length === 0) {
+    contentEl.innerHTML = '<div class="empty">No matching emails.</div>';
+    return;
+  }
+
+  // Sort newest first
+  items.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Group by date bucket, preserving order
+  const groups = {};
+  const groupOrder = ["Today", "Yesterday", "Earlier this week", "Older"];
+  items.forEach(item => {
+    const d = new Date(item.date);
+    const g = groupLabel(d);
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(item);
+  });
+
+  rowDataMap = {};
+  let html = "";
+  groupOrder.forEach(g => {
+    if (!groups[g] || groups[g].length === 0) return;
+    html += `<div class="date-group-label">${g}</div><div class="inbox-list">`;
+    html += groups[g].map((item, idx) => {
+      const rowId = g + "-" + idx;
+      rowDataMap[rowId] = item;
+      return renderRow(item, rowId);
+    }).join("");
+    html += `</div>`;
+  });
+
+  contentEl.innerHTML = html;
+}
+
+function extractEmail(str) {
+  const angle = (str || "").match(/<([^>]+)>/);
+  if (angle) return angle[1];
+  const bare = (str || "").match(/[\w.+-]+@[\w-]+\.[\w.-]+/);
+  return bare ? bare[0] : "";
+}
+
+function buildReplyUrl(item) {
+  const senderEmail = extractEmail(item.from);
+  const to = encodeURIComponent(senderEmail);
+  const subject = encodeURIComponent("Re: " + (item.subject || ""));
+  const accountEmail = item.account_email || "";
+
+  if (accountEmail.includes("outlook.com")) {
+    return `https://outlook.live.com/mail/0/deeplink/compose?to=${to}&subject=${subject}`;
+  }
+  if (accountEmail.includes("saharsh.co")) {
+    return `https://mail.zoho.com/zm/#mail/compose?to=${to}&subject=${subject}`;
+  }
+  // Default: Gmail, scoped to the correct one of the 3 Gmail accounts
+  return `https://mail.google.com/mail/?authuser=${encodeURIComponent(accountEmail)}&view=cm&fs=1&to=${to}&su=${subject}`;
+}
+
+function openReply(rowId) {
+  const item = rowDataMap[rowId];
+  if (!item) return;
+  window.open(buildReplyUrl(item), '_blank');
+}
+
+function buildOpenUrl(item) {
+  const accountEmail = item.account_email || "";
+  const subjectQuery = encodeURIComponent(item.subject || "");
+
+  if (accountEmail.includes("gmail.com")) {
+    if (item.message_id) {
+      // Exact deep link to the message
+      return `https://mail.google.com/mail/?authuser=${encodeURIComponent(accountEmail)}#search/rfc822msgid:${encodeURIComponent(item.message_id)}`;
+    }
+    // Fallback: search by subject
+    return `https://mail.google.com/mail/?authuser=${encodeURIComponent(accountEmail)}#search/${subjectQuery}`;
+  }
+  if (accountEmail.includes("outlook.com")) {
+    // Best-effort: Outlook web doesn't expose a Message-ID deep link via IMAP data
+    return `https://outlook.live.com/mail/0/inbox?q=${subjectQuery}`;
+  }
+  if (accountEmail.includes("saharsh.co")) {
+    // Best-effort: Zoho search by subject
+    return `https://mail.zoho.com/zm/#search/Inbox?searchText=${subjectQuery}`;
+  }
+  return null;
+}
+
+function openOnProvider(rowId) {
+  const item = rowDataMap[rowId];
+  if (!item) return;
+  const url = buildOpenUrl(item);
+  if (url) window.open(url, '_blank');
+}
+
+function renderRow(item, rowId) {
   const priority = item.priority || 'low';
   const date = new Date(item.date);
+  const group = groupLabel(date);
+  const color = colorForLabel(item.account_label);
+  const initials = initialsForLabel(item.account_label);
+
+  const attachments = item.attachments || [];
+  const hasAttachments = attachments.length > 0;
+
   return `
-    <div class="card ${priority}">
-      <div class="card-top">
-        <div class="subject">${escapeHtml(item.subject)}</div>
-        <span class="priority-badge ${priority}">${priority}</span>
+    <div class="row ${priority}" id="row-${rowId}" onclick="toggleRow('${rowId}')">
+      <div class="avatar" style="background:${color};">${escapeHtml(initials)}</div>
+      <div class="row-main">
+        <div class="row-top">
+          <div class="row-subject">${hasAttachments ? '📎 ' : ''}${escapeHtml(item.subject)}</div>
+          <div class="row-time">${formatTime(date, group)}</div>
+        </div>
+        <div class="row-preview">${escapeHtml(item.snippet)}</div>
+        <div class="row-detail">
+          <div class="from-line">${escapeHtml(item.from)} · ${escapeHtml(item.account_label)} · ${date.toLocaleString()}</div>
+          ${hasAttachments ? `<div class="attachment-line">📎 ${attachments.map(escapeHtml).join(', ')}</div>` : ''}
+          <div class="snippet-full">${escapeHtml(item.snippet)}</div>
+          <div class="reason-full">💡 ${escapeHtml(item.reason)}</div>
+          <div class="action-row">
+            <button class="open-btn" onclick="event.stopPropagation(); openOnProvider('${rowId}')">Open ↗</button>
+            <button class="reply-btn" onclick="event.stopPropagation(); openReply('${rowId}')">Reply ↗</button>
+          </div>
+        </div>
       </div>
-      <div class="from">${escapeHtml(item.from)}</div>
-      <div class="account-tag">${escapeHtml(item.account_label)}</div>
-      <div class="snippet">${escapeHtml(item.snippet)}</div>
-      <div class="reason">💡 ${escapeHtml(item.reason)}</div>
-      <div class="date">${date.toLocaleString()}</div>
     </div>
   `;
 }
 
-// loadDigest() is only called from checkPassword() after auth — never on page load
+function toggleRow(rowId) {
+  const row = document.getElementById('row-' + rowId);
+  if (row) row.classList.toggle('expanded');
+}
 
 async function triggerFetch() {
   const btn = document.getElementById("fetch-btn");
