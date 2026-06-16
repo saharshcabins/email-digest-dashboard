@@ -190,6 +190,18 @@
     font-style: italic;
     font-size: 0.8rem;
   }
+  .reply-btn {
+    margin-top: 10px;
+    padding: 6px 14px;
+    background: var(--orange-clay);
+    color: var(--white);
+    border: none;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .reply-btn:hover { opacity: 0.9; }
 
   #auth-screen {
     position: fixed; inset: 0;
@@ -299,6 +311,7 @@ if (sessionStorage.getItem("digest-auth") === "1") {
 <script>
 let allItems = [];
 let activeFilter = "all";
+let rowDataMap = {};
 
 const ACCOUNT_COLORS = [
   "#C97A41", // clay
@@ -406,15 +419,49 @@ function render() {
     groups[g].push(item);
   });
 
+  rowDataMap = {};
   let html = "";
   groupOrder.forEach(g => {
     if (!groups[g] || groups[g].length === 0) return;
     html += `<div class="date-group-label">${g}</div><div class="inbox-list">`;
-    html += groups[g].map((item, idx) => renderRow(item, g + "-" + idx)).join("");
+    html += groups[g].map((item, idx) => {
+      const rowId = g + "-" + idx;
+      rowDataMap[rowId] = item;
+      return renderRow(item, rowId);
+    }).join("");
     html += `</div>`;
   });
 
   contentEl.innerHTML = html;
+}
+
+function extractEmail(str) {
+  const angle = (str || "").match(/<([^>]+)>/);
+  if (angle) return angle[1];
+  const bare = (str || "").match(/[\w.+-]+@[\w-]+\.[\w.-]+/);
+  return bare ? bare[0] : "";
+}
+
+function buildReplyUrl(item) {
+  const senderEmail = extractEmail(item.from);
+  const to = encodeURIComponent(senderEmail);
+  const subject = encodeURIComponent("Re: " + (item.subject || ""));
+  const accountEmail = item.account_email || "";
+
+  if (accountEmail.includes("outlook.com")) {
+    return `https://outlook.live.com/mail/0/deeplink/compose?to=${to}&subject=${subject}`;
+  }
+  if (accountEmail.includes("saharsh.co")) {
+    return `https://mail.zoho.com/zm/#mail/compose?to=${to}&subject=${subject}`;
+  }
+  // Default: Gmail, scoped to the correct one of the 3 Gmail accounts
+  return `https://mail.google.com/mail/?authuser=${encodeURIComponent(accountEmail)}&view=cm&fs=1&to=${to}&su=${subject}`;
+}
+
+function openReply(rowId) {
+  const item = rowDataMap[rowId];
+  if (!item) return;
+  window.open(buildReplyUrl(item), '_blank');
 }
 
 function renderRow(item, rowId) {
@@ -437,6 +484,7 @@ function renderRow(item, rowId) {
           <div class="from-line">${escapeHtml(item.from)} · ${escapeHtml(item.account_label)} · ${date.toLocaleString()}</div>
           <div class="snippet-full">${escapeHtml(item.snippet)}</div>
           <div class="reason-full">💡 ${escapeHtml(item.reason)}</div>
+          <button class="reply-btn" onclick="event.stopPropagation(); openReply('${rowId}')">Reply ↗</button>
         </div>
       </div>
     </div>
