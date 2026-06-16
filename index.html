@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Harshad's Mailbox</title>
+<script>
+(function() {
+  var saved = localStorage.getItem('digest-theme');
+  document.documentElement.setAttribute('data-theme', saved || 'dark');
+})();
+</script>
 <style>
   :root {
     --orange-clay: #C97A41;
@@ -12,6 +18,18 @@
     --dark-stone: #0F1B26;
     --grey-steel: #C8CBCF;
     --white: #FFFFFF;
+    --error-bg: #fdecea;
+    --error-text: #b71c1c;
+  }
+  :root[data-theme="dark"] {
+    --orange-clay: #E0935C;
+    --green-moss: #93A877;
+    --white-linen: #14181B;
+    --dark-stone: #ECEAE3;
+    --grey-steel: #3A3F44;
+    --white: #1E2327;
+    --error-bg: #3A1F1F;
+    --error-text: #FF8A80;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -111,8 +129,8 @@
     color: var(--green-moss);
   }
   .error {
-    background: #fdecea;
-    color: #b71c1c;
+    background: var(--error-bg);
+    color: var(--error-text);
     padding: 12px;
     border-radius: 8px;
     font-size: 0.85rem;
@@ -313,10 +331,15 @@
     font-size: 0.95rem; font-weight: 700; cursor: pointer;
   }
   .auth-box button:hover { opacity: 0.9; }
-  .auth-error { color: #b71c1c; font-size: 0.8rem; margin-top: 8px; display: none; }
+  .auth-error { color: var(--error-text); font-size: 0.8rem; margin-top: 8px; display: none; }
 
   .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
   .greeting { font-size: 1.15rem; font-weight: 800; margin-top: 2px; }
+  .theme-toggle {
+    font-size: 0.8rem; cursor: pointer; user-select: none;
+    padding: 6px 10px; border-radius: 6px; border: 1px solid var(--grey-steel);
+  }
+  .theme-toggle:hover { background: var(--white-linen); }
   .user-avatar {
     width: 36px; height: 36px; border-radius: 50%;
     background: var(--orange-clay); color: var(--white);
@@ -378,7 +401,10 @@
           <div class="greeting" id="greeting">Loading…</div>
           <div class="meta" id="meta"></div>
         </div>
-        <div class="user-avatar">HC</div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span class="theme-toggle" id="theme-toggle" onclick="toggleTheme()"></span>
+          <div class="user-avatar">HC</div>
+        </div>
       </div>
       <button id="fetch-btn" onclick="triggerFetch()" style="
         margin-top:10px; padding:6px 16px;
@@ -512,13 +538,28 @@ function setGreeting() {
   document.getElementById('greeting').textContent = `Good ${part}, Harshad`;
 }
 
+function applyThemeLabel() {
+  const theme = document.documentElement.getAttribute('data-theme');
+  document.getElementById('theme-toggle').textContent = theme === 'dark' ? '☀ Light' : '🌙 Dark';
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('digest-theme', next);
+  applyThemeLabel();
+}
+
+applyThemeLabel();
+
 function renderSyncStrip(accountStatus) {
   const el = document.getElementById('sidebar-accounts');
   if (!accountStatus || accountStatus.length === 0) { el.innerHTML = ''; return; }
   el.innerHTML = accountStatus.map(a => {
     const cls = a.ok ? 'ok' : 'err';
     const title = a.ok ? `${a.count} fetched` : (a.error || 'failed');
-    return `<div class="account-row" title="${escapeHtml(title)}"><span class="account-dot ${cls}"></span>${escapeHtml(a.label)}</div>`;
+    return `<div class="account-row" title="${escapeHtml(title)}"><span class="account-dot ${cls}"></span>${escapeHtml(a.email || a.label)}</div>`;
   }).join('');
 }
 
@@ -556,11 +597,12 @@ function colorForLabel(label) {
   return ACCOUNT_COLORS[hash % ACCOUNT_COLORS.length];
 }
 
-function initialsForLabel(label) {
-  if (!label) return "?";
-  const words = label.replace(/[()]/g, "").split(/\s+/).filter(Boolean);
-  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
-  return label.substring(0, 2).toUpperCase();
+function initialsForLabel(value) {
+  if (!value) return "?";
+  const local = value.split('@')[0];
+  const parts = local.split(/[._-]/).filter(Boolean);
+  if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
+  return local.substring(0, 2).toUpperCase();
 }
 
 function escapeHtml(str) {
@@ -639,7 +681,7 @@ function render() {
     }
     if (activeFilter !== "all" && (item.priority || "low") !== activeFilter) return false;
     if (query) {
-      const haystack = `${item.subject} ${item.from} ${item.snippet} ${item.account_label}`.toLowerCase();
+      const haystack = `${item.subject} ${item.from} ${item.snippet} ${item.account_email}`.toLowerCase();
       if (!haystack.includes(query)) return false;
     }
     return true;
@@ -742,8 +784,8 @@ function renderRow(item, rowId) {
   const priority = item.priority || 'low';
   const date = new Date(item.date);
   const group = groupLabel(date);
-  const color = colorForLabel(item.account_label);
-  const initials = initialsForLabel(item.account_label);
+  const color = colorForLabel(item.account_email);
+  const initials = initialsForLabel(item.account_email);
   const handled = isHandled(item);
 
   const attachments = item.attachments || [];
@@ -760,7 +802,7 @@ function renderRow(item, rowId) {
         </div>
         <div class="row-preview">${escapeHtml(item.snippet)}</div>
         <div class="row-detail">
-          <div class="from-line">${escapeHtml(item.from)} · ${escapeHtml(item.account_label)} · ${date.toLocaleString()}</div>
+          <div class="from-line">${escapeHtml(item.from)} · ${escapeHtml(item.account_email)} · ${date.toLocaleString()}</div>
           ${hasAttachments ? `<div class="attachment-line">📎 ${attachments.map(escapeHtml).join(', ')}</div>` : ''}
           <div class="snippet-full">${escapeHtml(item.snippet)}</div>
           <div class="reason-full">💡 ${escapeHtml(item.reason)}</div>
