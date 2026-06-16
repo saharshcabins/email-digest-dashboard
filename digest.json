@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T15:06:48.497708+00:00",
-  "total_checked": 20,
-  "total_important": 3,
+  "generated_at": "2026-06-16T15:52:50.519012+00:00",
+  "total_checked": 27,
+  "total_important": 6,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching importance rules.",
+      "reason": "New lead from Saharsh Cabins contact form, indicating interest in a luxury villa.",
       "priority": "high"
     },
     {
@@ -26,7 +26,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching importance rules.",
+      "reason": "New lead from Saharsh Cabins contact form, indicating interest in a luxury villa.",
       "priority": "high"
     },
     {
@@ -39,7 +39,46 @@
       "attachments": [],
       "message_id": "calendar-fe83f846-09e0-4ad6-bded-5ab811ad8ab9@google.com",
       "important": true,
-      "reason": "Calendar notification for 'Saharsh' discussion, indicating project activity.",
+      "reason": "Google Calendar notification for a 'Saharsh' related discussion.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Google Cloud Platform & APIs: We've received your payment for 015C91-BF959C-118575",
+      "from": "Google Payments <payments-noreply@google.com>",
+      "date": "2026-06-16T00:04:29-07:00",
+      "snippet": "Google Cloud Platform & APIs Payment received Your payment of ₹1,000.00 (reference CLOUD P4WBSP on Mastercard • • • • 6007) was applied to Google Cloud Platform & APIs on 16 Jun 2026. ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about important changes to Google Cloud Platform & APIs or your account. Google",
+      "attachments": [],
+      "message_id": "8a53be7796ac7fea9cc4f0468e2deaef70349674-516505-100075571@google.com",
+      "important": true,
+      "reason": "Payment confirmation for Google Cloud Platform & APIs.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Google Cloud Platform & APIs: Update your tax info",
+      "from": "Google Payments <payments-noreply@google.com>",
+      "date": "2026-06-16T00:01:37-07:00",
+      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKTh2pAHihh5euQUcWIUzn4uwuYsieSDS1a6q24iDSnw7xOjDRPiZeBZj3ekoaUuWvCiDxCszt8LcSzWL2trxf5DFj8DyH8WK7jJpZS04GMbpUGGsoiRoDfsqkSZ09qUSDL9wbzevMk5faeNYw85cZCAcsZXYxaChjT6qm932xpBna8> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
+      "attachments": [],
+      "message_id": "bad7e7f2a0ad08b11126c27695c4f72adfd04561-20097276-110599669@google.com",
+      "important": true,
+      "reason": "Request to update tax information for Google Cloud Platform & APIs.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Google Cloud Platform & APIs: Update your tax info",
+      "from": "Google Payments <payments-noreply@google.com>",
+      "date": "2026-06-16T00:01:29-07:00",
+      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKQwhkGSHAJsmo0Gz4rhPYNGxXw1lv_YnKP9vuMmj2qrYSo_19g2fqQZQamoJg-b4Dh7U6lQFX6d1AUNPplaMwJWDZVv_tYqfVtgjHouI-8Ty5Y-YaNaKgYWmFDrYFnoFjBMM_q5FMnuvR_O3PDNVbmNqZn1SOC0P90_1kz4ma3NSzs> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
+      "attachments": [],
+      "message_id": "56df48d4d1142b9d5e2b4a77a43da4b0c5d848d7-20097276-110599669@google.com",
+      "important": true,
+      "reason": "Request to update tax information for Google Cloud Platform & APIs.",
       "priority": "medium"
     }
   ]
