@@ -244,6 +244,51 @@
   }
   .auth-box button:hover { opacity: 0.9; }
   .auth-error { color: #b71c1c; font-size: 0.8rem; margin-top: 8px; display: none; }
+
+  .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .brand-label {
+    font-size: 0.7rem; color: var(--green-moss); font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .greeting { font-size: 1.15rem; font-weight: 800; margin-top: 2px; }
+  .user-avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--orange-clay); color: var(--white);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.8rem; font-weight: 700; flex-shrink: 0;
+  }
+  .sync-strip { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .sync-pill {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 0.68rem; padding: 3px 9px; border-radius: 999px;
+    background: var(--white); border: 1px solid var(--grey-steel);
+    color: var(--dark-stone);
+  }
+  .sync-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .sync-dot.ok  { background: #3B6D11; }
+  .sync-dot.err { background: #A32D2D; }
+
+  .stat-cards {
+    display: grid; grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 8px; margin: 14px 0;
+  }
+  @media (max-width: 480px) {
+    .stat-cards { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  }
+  .stat-card { background: var(--white); border-radius: 8px; padding: 10px 12px; }
+  .stat-label { font-size: 0.65rem; color: var(--green-moss); }
+  .stat-value { font-size: 1.3rem; font-weight: 800; margin-top: 2px; }
+
+  .filter-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .handled-toggle {
+    font-size: 0.75rem; color: var(--green-moss); cursor: pointer;
+    text-decoration: underline; white-space: nowrap; flex-shrink: 0;
+  }
+  .handled-toggle.active-toggle { color: var(--orange-clay); font-weight: 700; }
+
+  .row-checkbox { margin-top: 3px; flex-shrink: 0; cursor: pointer; }
+  .row.handled-view { opacity: 0.55; }
+  .row.handled-view .row-subject { text-decoration: line-through; }
 </style>
 </head>
 <body>
@@ -259,8 +304,15 @@
 </div>
 
 <header>
-  <h1>Harshad's Mailbox</h1>
-  <div class="meta" id="meta">Loading…</div>
+  <div class="header-top">
+    <div>
+      <div class="brand-label">Harshad's Mailbox</div>
+      <div class="greeting" id="greeting">Loading…</div>
+    </div>
+    <div class="user-avatar">HC</div>
+  </div>
+  <div class="meta" id="meta"></div>
+  <div class="sync-strip" id="sync-strip"></div>
   <button id="fetch-btn" onclick="triggerFetch()" style="
     margin-top:10px; padding:6px 16px;
     background:var(--orange-clay); color:#fff;
@@ -271,13 +323,18 @@
   <span id="fetch-status" style="font-size:0.75rem;color:var(--green-moss);margin-left:10px;"></span>
 </header>
 
+<div class="stat-cards" id="stat-cards"></div>
+
 <div class="toolbar">
   <input type="text" class="search-input" id="search-input" placeholder="Search sender, subject, or content…" />
-  <div class="filter-chips" id="filter-chips">
-    <span class="chip active" data-pri="all" onclick="setFilter('all')">All</span>
-    <span class="chip" data-pri="high" onclick="setFilter('high')">High</span>
-    <span class="chip" data-pri="medium" onclick="setFilter('medium')">Medium</span>
-    <span class="chip" data-pri="low" onclick="setFilter('low')">Low</span>
+  <div class="filter-row">
+    <div class="filter-chips" id="filter-chips">
+      <span class="chip active" data-pri="all" onclick="setFilter('all')">All</span>
+      <span class="chip" data-pri="high" onclick="setFilter('high')">High</span>
+      <span class="chip" data-pri="medium" onclick="setFilter('medium')">Medium</span>
+      <span class="chip" data-pri="low" onclick="setFilter('low')">Low</span>
+    </div>
+    <span class="handled-toggle" id="handled-toggle" onclick="toggleShowHandled()">Handled (0)</span>
   </div>
 </div>
 
@@ -322,6 +379,79 @@ if (sessionStorage.getItem("digest-auth") === "1") {
 let allItems = [];
 let activeFilter = "all";
 let rowDataMap = {};
+let digestMeta = { total_checked: 0, total_important: 0 };
+let showHandled = false;
+
+let handledSet = new Set();
+try {
+  handledSet = new Set(JSON.parse(localStorage.getItem('digest-handled') || '[]'));
+} catch (e) { handledSet = new Set(); }
+
+function getItemId(item) {
+  if (item.message_id) return item.message_id;
+  return `${item.account_email}|${item.subject}|${item.date}`;
+}
+
+function isHandled(item) {
+  return handledSet.has(getItemId(item));
+}
+
+function saveHandled() {
+  localStorage.setItem('digest-handled', JSON.stringify(Array.from(handledSet)));
+}
+
+function toggleHandled(rowId) {
+  const item = rowDataMap[rowId];
+  if (!item) return;
+  const id = getItemId(item);
+  if (handledSet.has(id)) handledSet.delete(id);
+  else handledSet.add(id);
+  saveHandled();
+  render();
+}
+
+function toggleShowHandled() {
+  showHandled = !showHandled;
+  render();
+}
+
+function setGreeting() {
+  const hour = new Date().getHours();
+  let part = "morning";
+  if (hour >= 12 && hour < 17) part = "afternoon";
+  else if (hour >= 17) part = "evening";
+  document.getElementById('greeting').textContent = `Good ${part}, Harshad`;
+}
+
+function renderSyncStrip(accountStatus) {
+  const el = document.getElementById('sync-strip');
+  if (!accountStatus || accountStatus.length === 0) { el.innerHTML = ''; return; }
+  el.innerHTML = accountStatus.map(a => {
+    const cls = a.ok ? 'ok' : 'err';
+    const title = a.ok ? `${a.count} fetched` : (a.error || 'failed');
+    return `<span class="sync-pill" title="${escapeHtml(title)}"><span class="sync-dot ${cls}"></span>${escapeHtml(a.label)}</span>`;
+  }).join('');
+}
+
+function renderStatCards() {
+  const el = document.getElementById('stat-cards');
+  const todayCount = allItems.filter(i => groupLabel(new Date(i.date)) === 'Today').length;
+  const needsReply = allItems.filter(i => (i.priority || 'low') === 'high').length;
+  const newLeads = allItems.filter(i => (i.from || '').toLowerCase().includes('enquiries@saharsh.co')).length;
+  const noiseFiltered = Math.max(0, digestMeta.total_checked - digestMeta.total_important);
+  const stats = [
+    ['Important today', todayCount],
+    ['Needs reply', needsReply],
+    ['New leads', newLeads],
+    ['Noise filtered', noiseFiltered],
+  ];
+  el.innerHTML = stats.map(([label, value]) => `
+    <div class="stat-card">
+      <div class="stat-label">${label}</div>
+      <div class="stat-value">${value}</div>
+    </div>
+  `).join('');
+}
 
 const ACCOUNT_COLORS = [
   "#C97A41", // clay
@@ -353,6 +483,7 @@ function escapeHtml(str) {
 async function loadDigest() {
   const contentEl = document.getElementById('content');
   const metaEl = document.getElementById('meta');
+  setGreeting();
 
   try {
     const res = await fetch('digest.json?t=' + Date.now());
@@ -363,6 +494,9 @@ async function loadDigest() {
     metaEl.textContent = `Last checked: ${generated.toLocaleString()} · ${data.total_important} important of ${data.total_checked} checked`;
 
     allItems = data.important || [];
+    digestMeta = { total_checked: data.total_checked || 0, total_important: data.total_important || 0 };
+    renderSyncStrip(data.account_status);
+    renderStatCards();
     render();
   } catch (e) {
     metaEl.textContent = '';
@@ -402,7 +536,18 @@ function render() {
   const contentEl = document.getElementById('content');
   const query = document.getElementById('search-input').value.trim().toLowerCase();
 
+  const handledCount = allItems.filter(isHandled).length;
+  const handledToggleEl = document.getElementById('handled-toggle');
+  handledToggleEl.textContent = `Handled (${handledCount})`;
+  handledToggleEl.classList.toggle('active-toggle', showHandled);
+
   let items = allItems.filter(item => {
+    const handled = isHandled(item);
+    if (showHandled) {
+      if (!handled) return false;
+    } else {
+      if (handled) return false;
+    }
     if (activeFilter !== "all" && (item.priority || "low") !== activeFilter) return false;
     if (query) {
       const haystack = `${item.subject} ${item.from} ${item.snippet} ${item.account_label}`.toLowerCase();
@@ -412,7 +557,7 @@ function render() {
   });
 
   if (items.length === 0) {
-    contentEl.innerHTML = '<div class="empty">No matching emails.</div>';
+    contentEl.innerHTML = `<div class="empty">${showHandled ? 'No handled emails yet.' : 'No matching emails.'}</div>`;
     return;
   }
 
@@ -510,12 +655,14 @@ function renderRow(item, rowId) {
   const group = groupLabel(date);
   const color = colorForLabel(item.account_label);
   const initials = initialsForLabel(item.account_label);
+  const handled = isHandled(item);
 
   const attachments = item.attachments || [];
   const hasAttachments = attachments.length > 0;
 
   return `
-    <div class="row ${priority}" id="row-${rowId}" onclick="toggleRow('${rowId}')">
+    <div class="row ${priority} ${handled ? 'handled-view' : ''}" id="row-${rowId}" onclick="toggleRow('${rowId}')">
+      <input type="checkbox" class="row-checkbox" ${handled ? 'checked' : ''} onclick="event.stopPropagation(); toggleHandled('${rowId}')" aria-label="Mark handled">
       <div class="avatar" style="background:${color};">${escapeHtml(initials)}</div>
       <div class="row-main">
         <div class="row-top">
