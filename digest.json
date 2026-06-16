@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:52:50.519012+00:00",
+  "generated_at": "2026-06-16T16:07:35.417820+00:00",
   "total_checked": 27,
   "total_important": 6,
   "important": [
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in a luxury villa.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -26,7 +26,7 @@
       "attachments": [],
       "message_id": "0106019ecf677bf5-439ed638-a8aa-43cd-9979-a4cdd865f29d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in a luxury villa.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -39,7 +39,7 @@
       "attachments": [],
       "message_id": "calendar-fe83f846-09e0-4ad6-bded-5ab811ad8ab9@google.com",
       "important": true,
-      "reason": "Google Calendar notification for a 'Saharsh' related discussion.",
+      "reason": "Calendar notification for 'Saharsh - US Discussion' event.",
       "priority": "medium"
     },
     {
@@ -52,7 +52,7 @@
       "attachments": [],
       "message_id": "8a53be7796ac7fea9cc4f0468e2deaef70349674-516505-100075571@google.com",
       "important": true,
-      "reason": "Payment confirmation for Google Cloud Platform & APIs.",
+      "reason": "Payment confirmation from Google Payments.",
       "priority": "medium"
     },
     {
@@ -65,7 +65,7 @@
       "attachments": [],
       "message_id": "bad7e7f2a0ad08b11126c27695c4f72adfd04561-20097276-110599669@google.com",
       "important": true,
-      "reason": "Request to update tax information for Google Cloud Platform & APIs.",
+      "reason": "Action required for tax information update from Google Payments.",
       "priority": "medium"
     },
     {
@@ -78,8 +78,40 @@
       "attachments": [],
       "message_id": "56df48d4d1142b9d5e2b4a77a43da4b0c5d848d7-20097276-110599669@google.com",
       "important": true,
-      "reason": "Request to update tax information for Google Cloud Platform & APIs.",
+      "reason": "Action required for tax information update from Google Payments.",
       "priority": "medium"
+    }
+  ],
+  "account_status": [
+    {
+      "label": "Saharsh Cabins Gmail",
+      "ok": true,
+      "count": 3,
+      "error": null
+    },
+    {
+      "label": "Personal Gmail (harrychandak)",
+      "ok": true,
+      "count": 14,
+      "error": null
+    },
+    {
+      "label": "IIT KGP Gmail",
+      "ok": true,
+      "count": 1,
+      "error": null
+    },
+    {
+      "label": "Outlook",
+      "ok": true,
+      "count": 8,
+      "error": null
+    },
+    {
+      "label": "Saharsh.co (Zoho)",
+      "ok": true,
+      "count": 1,
+      "error": null
     }
   ]
 }
