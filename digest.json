@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T16:19:58.941636+00:00",
+  "generated_at": "2026-06-16T16:30:02.875646+00:00",
   "total_checked": 26,
-  "total_important": 5,
+  "total_important": 3,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -41,61 +41,40 @@
       "important": true,
       "reason": "Calendar notification for a 'Saharsh' discussion, indicating a project-related meeting.",
       "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Google Cloud Platform & APIs: Update your tax info",
-      "from": "Google Payments <payments-noreply@google.com>",
-      "date": "2026-06-16T00:01:37-07:00",
-      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKTh2pAHihh5euQUcWIUzn4uwuYsieSDS1a6q24iDSnw7xOjDRPiZeBZj3ekoaUuWvCiDxCszt8LcSzWL2trxf5DFj8DyH8WK7jJpZS04GMbpUGGsoiRoDfsqkSZ09qUSDL9wbzevMk5faeNYw85cZCAcsZXYxaChjT6qm932xpBna8> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
-      "attachments": [],
-      "message_id": "bad7e7f2a0ad08b11126c27695c4f72adfd04561-20097276-110599669@google.com",
-      "important": true,
-      "reason": "Request to update tax info from Google Payments, related to financial documents.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Google Cloud Platform & APIs: Update your tax info",
-      "from": "Google Payments <payments-noreply@google.com>",
-      "date": "2026-06-16T00:01:29-07:00",
-      "snippet": "Google Cloud Platform & APIs Update your tax information To make sure that the correct taxes are applied to the Google services that you use, please update your tax information for Harshad Chandak as soon as possible. You may be unable to claim tax exemptions or view tax information on your invoices until this information is updated. Update tax info<https://c.gle/AOPyDKQwhkGSHAJsmo0Gz4rhPYNGxXw1lv_YnKP9vuMmj2qrYSo_19g2fqQZQamoJg-b4Dh7U6lQFX6d1AUNPplaMwJWDZVv_tYqfVtgjHouI-8Ty5Y-YaNaKgYWmFDrYFnoFjBMM_q5FMnuvR_O3PDNVbmNqZn1SOC0P90_1kz4ma3NSzs> ------------------------------------------------------------------------------------ Help Centre<https://support.google.com/cloud/#topic=6288636> Contact us<https://support.google.com/cloud/contact/cloud_platform_billing> Google Cloud Platform customer ID: 015C91-BF959C-118575 Payments profile ID: 1691-3568-4634 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043 You have received this mandatory service announcement to update you about imp",
-      "attachments": [],
-      "message_id": "56df48d4d1142b9d5e2b4a77a43da4b0c5d848d7-20097276-110599669@google.com",
-      "important": true,
-      "reason": "Request to update tax info from Google Payments, related to financial documents.",
-      "priority": "medium"
     }
   ],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
+      "email": "saharshcabins@gmail.com",
       "ok": true,
       "count": 3,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
+      "email": "harrychandak.007@gmail.com",
       "ok": true,
       "count": 13,
       "error": null
     },
     {
       "label": "IIT KGP Gmail",
+      "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
       "count": 1,
       "error": null
     },
     {
       "label": "Outlook",
+      "email": "harshad.chandak@outlook.com",
       "ok": true,
       "count": 8,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
+      "email": "harshad@saharsh.co",
       "ok": true,
       "count": 1,
       "error": null
