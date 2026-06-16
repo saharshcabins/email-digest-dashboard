@@ -185,6 +185,12 @@
   .row-detail .snippet-full {
     margin-bottom: 6px;
   }
+  .row-detail .attachment-line {
+    font-size: 0.75rem;
+    color: var(--dark-stone);
+    opacity: 0.7;
+    margin-bottom: 6px;
+  }
   .row-detail .reason-full {
     color: var(--green-moss);
     font-style: italic;
@@ -471,17 +477,21 @@ function renderRow(item, rowId) {
   const color = colorForLabel(item.account_label);
   const initials = initialsForLabel(item.account_label);
 
+  const attachments = item.attachments || [];
+  const hasAttachments = attachments.length > 0;
+
   return `
     <div class="row ${priority}" id="row-${rowId}" onclick="toggleRow('${rowId}')">
       <div class="avatar" style="background:${color};">${escapeHtml(initials)}</div>
       <div class="row-main">
         <div class="row-top">
-          <div class="row-subject">${escapeHtml(item.subject)}</div>
+          <div class="row-subject">${hasAttachments ? '📎 ' : ''}${escapeHtml(item.subject)}</div>
           <div class="row-time">${formatTime(date, group)}</div>
         </div>
         <div class="row-preview">${escapeHtml(item.snippet)}</div>
         <div class="row-detail">
           <div class="from-line">${escapeHtml(item.from)} · ${escapeHtml(item.account_label)} · ${date.toLocaleString()}</div>
+          ${hasAttachments ? `<div class="attachment-line">📎 ${attachments.map(escapeHtml).join(', ')}</div>` : ''}
           <div class="snippet-full">${escapeHtml(item.snippet)}</div>
           <div class="reason-full">💡 ${escapeHtml(item.reason)}</div>
           <button class="reply-btn" onclick="event.stopPropagation(); openReply('${rowId}')">Reply ↗</button>
