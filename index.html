@@ -41,7 +41,7 @@
   }
   .app-shell {
     display: grid;
-    grid-template-columns: 200px minmax(0,1fr);
+    grid-template-columns: 240px minmax(0,1fr);
     max-width: 1040px;
     margin: 0 auto;
     min-height: 100vh;
@@ -102,10 +102,12 @@
   }
   .account-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 7px;
     padding: 5px 8px;
     font-size: 0.78rem;
+    word-break: break-all;
+    line-height: 1.3;
   }
   .account-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
   .account-dot.ok  { background: #3B6D11; }
@@ -388,6 +390,7 @@
     <div class="sidebar-brand">Harshad's Mailbox</div>
     <div class="nav-item active" data-nav="inbox" onclick="setNav('inbox')">Inbox</div>
     <div class="nav-item" data-nav="high" onclick="setNav('high')">High priority</div>
+    <div class="nav-item" data-nav="leads" onclick="setNav('leads')">Leads</div>
     <div class="nav-item" data-nav="handled" onclick="setNav('handled')">Handled</div>
     <div class="nav-item disabled" title="Coming soon">Insights</div>
     <div class="sidebar-section-title">Accounts</div>
@@ -474,9 +477,18 @@ if (sessionStorage.getItem("digest-auth") === "1") {
 <script>
 let allItems = [];
 let activeFilter = "all";
+let activeNav = "inbox";
 let rowDataMap = {};
 let digestMeta = { total_checked: 0, total_important: 0 };
 let showHandled = false;
+
+function isLead(item) {
+  const from = (item.from || '').toLowerCase();
+  const subject = (item.subject || '').toLowerCase();
+  return from.includes('enquiries@saharsh.co') ||
+         subject.includes('new contact request') ||
+         subject.includes('contact form');
+}
 
 let handledSet = new Set();
 try {
@@ -512,18 +524,15 @@ function toggleShowHandled() {
 }
 
 function setNav(key) {
-  if (key === 'inbox') { activeFilter = 'all'; showHandled = false; }
-  else if (key === 'high') { activeFilter = 'high'; showHandled = false; }
-  else if (key === 'handled') { showHandled = true; }
+  activeNav = key;
+  showHandled = key === 'handled';
+  activeFilter = key === 'high' ? 'high' : 'all';
   render();
 }
 
 function syncNavActive() {
-  let activeKey = 'inbox';
-  if (showHandled) activeKey = 'handled';
-  else if (activeFilter === 'high') activeKey = 'high';
   document.querySelectorAll('.nav-item[data-nav]').forEach(el => {
-    el.classList.toggle('active', el.dataset.nav === activeKey);
+    el.classList.toggle('active', el.dataset.nav === activeNav);
   });
   document.querySelectorAll('.chip').forEach(c => {
     c.classList.toggle('active', !showHandled && c.dataset.pri === activeFilter);
@@ -567,16 +576,16 @@ function renderStatCards() {
   const el = document.getElementById('stat-cards');
   const todayCount = allItems.filter(i => groupLabel(new Date(i.date)) === 'Today').length;
   const needsReply = allItems.filter(i => (i.priority || 'low') === 'high').length;
-  const newLeads = allItems.filter(i => (i.from || '').toLowerCase().includes('enquiries@saharsh.co')).length;
+  const newLeads = allItems.filter(isLead).length;
   const noiseFiltered = Math.max(0, digestMeta.total_checked - digestMeta.total_important);
   const stats = [
-    ['Important today', todayCount],
-    ['Needs reply', needsReply],
-    ['New leads', newLeads],
-    ['Noise filtered', noiseFiltered],
+    ['Important today', todayCount, null],
+    ['Needs reply', needsReply, 'high'],
+    ['New leads', newLeads, 'leads'],
+    ['Noise filtered', noiseFiltered, null],
   ];
-  el.innerHTML = stats.map(([label, value]) => `
-    <div class="stat-card">
+  el.innerHTML = stats.map(([label, value, nav]) => `
+    <div class="stat-card" ${nav ? `onclick="setNav('${nav}')" style="cursor:pointer"` : ''}>
       <div class="stat-label">${label}</div>
       <div class="stat-value">${value}</div>
     </div>
@@ -637,6 +646,7 @@ async function loadDigest() {
 
 function setFilter(pri) {
   activeFilter = pri;
+  activeNav = pri === 'high' ? 'high' : 'inbox';
   showHandled = false;
   render();
 }
@@ -679,6 +689,7 @@ function render() {
     } else {
       if (handled) return false;
     }
+    if (activeNav === 'leads' && !isLead(item)) return false;
     if (activeFilter !== "all" && (item.priority || "low") !== activeFilter) return false;
     if (query) {
       const haystack = `${item.subject} ${item.from} ${item.snippet} ${item.account_email}`.toLowerCase();

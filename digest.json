@@ -1,8 +1,21 @@
 {
-  "generated_at": "2026-06-17T10:23:59.686630+00:00",
-  "total_checked": 10,
+  "generated_at": "2026-06-17T14:35:33.936924+00:00",
+  "total_checked": 12,
   "total_important": 2,
   "important": [
+    {
+      "account_label": "Outlook",
+      "account_email": "harshad.chandak@outlook.com",
+      "subject": "RE: Accessible // Luco proposal",
+      "from": "Adam Perrino <adam@elev8architecture.com>",
+      "date": "2026-06-17T12:22:20+00:00",
+      "snippet": "Randy, It has been many……many months & ELEV8 has been compensated for zero of our effort on this project. What is your path forward. I am looking for honesty & no lip service. ** NEW BUFFALO OFFICE ADDRESS BELOW ** Adam Perrino, RA, CDT adam@elev8architecture.com<mailto:adam@elev8architecture.com> ELEV8 Architecture Buffalo Salt Lake City 4936 Ellicott Road 255 West 700 S Orchard Park, NY 14127 Salt Lake City UT 84101 (O) 1.888.88ELEV8 (M) 1.716.609.3319 www.elev8architecture.com<http://www.elev8architecture.com/> From: Randy Hendrickson <randy@randyhendrickson.com> Sent: Wednesday, April 15, 2026 2:13 PM To: Adam Perrino <adam@elev8architecture.com>; Restoration North <welcomehome@restoration-north.com> Cc: Punj Rajan <punj@goluco.com>; Harshad Chandak <harshad.chandak@outlook.com> Subject: Re: Accessible // Luco proposal Hey Adam! See attached, received yesterday from Luco. Their design team is producing final renders and pricing as we speak, so at long last I can get on the phone wi",
+      "attachments": [],
+      "message_id": "SA1PR17MB758861C415E0AFDB81828B1B8BE42@SA1PR17MB7588.namprd17.prod.outlook.com",
+      "important": true,
+      "reason": "Email from a known contact regarding project compensation and path forward.",
+      "priority": "high"
+    },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
@@ -13,21 +26,8 @@
       "attachments": [],
       "message_id": "calendar-e7fbfabe-07c4-4779-865b-4bb08fb7fdc4@google.com",
       "important": true,
-      "reason": "Calendar notification for 'Saharsh' discussion, related to new enquiries/leads.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Harshad - You have received a new referral in BNI Connect!",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-17T06:26:15+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019ed4424c73-67d12b44-8c3f-406e-895a-370003468d77-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "New referral from BNI, a key network for the user.",
-      "priority": "high"
+      "reason": "Google Calendar notification for a meeting related to 'Saharsh'.",
+      "priority": "medium"
     }
   ],
   "account_status": [
@@ -56,14 +56,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 5,
+      "count": 8,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     }
   ]
