@@ -1,35 +1,21 @@
 {
-  "generated_at": "2026-06-18T07:15:24.784650+00:00",
-  "total_checked": 5,
-  "total_important": 1,
-  "important": [
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: BNI meeting @ Thu 18 Jun 2026 07:00 - 08:00 (IST) (harrychandak.007@gmail.com)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-18T01:00:06+00:00",
-      "snippet": "You have an upcoming event BNI meeting Thursday 18 Jun 2026 ⋅ 07:00 – 08:00 India Standard Time - Kolkata Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
-      "attachments": [],
-      "message_id": "calendar-8090363a-3606-4e2a-8757-f7f40bbad9ac@google.com",
-      "important": true,
-      "reason": "BNI meeting notification. BNI Veer chapter members are always important.",
-      "priority": "medium"
-    }
-  ],
+  "generated_at": "2026-06-18T12:01:15.626243+00:00",
+  "total_checked": 10,
+  "total_important": 0,
+  "important": [],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 3,
+      "count": 8,
       "error": null
     },
     {
@@ -43,7 +29,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
