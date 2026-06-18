@@ -1,32 +1,19 @@
 {
-  "generated_at": "2026-06-17T14:35:33.936924+00:00",
-  "total_checked": 12,
-  "total_important": 2,
+  "generated_at": "2026-06-18T07:15:24.784650+00:00",
+  "total_checked": 5,
+  "total_important": 1,
   "important": [
-    {
-      "account_label": "Outlook",
-      "account_email": "harshad.chandak@outlook.com",
-      "subject": "RE: Accessible // Luco proposal",
-      "from": "Adam Perrino <adam@elev8architecture.com>",
-      "date": "2026-06-17T12:22:20+00:00",
-      "snippet": "Randy, It has been many……many months & ELEV8 has been compensated for zero of our effort on this project. What is your path forward. I am looking for honesty & no lip service. ** NEW BUFFALO OFFICE ADDRESS BELOW ** Adam Perrino, RA, CDT adam@elev8architecture.com<mailto:adam@elev8architecture.com> ELEV8 Architecture Buffalo Salt Lake City 4936 Ellicott Road 255 West 700 S Orchard Park, NY 14127 Salt Lake City UT 84101 (O) 1.888.88ELEV8 (M) 1.716.609.3319 www.elev8architecture.com<http://www.elev8architecture.com/> From: Randy Hendrickson <randy@randyhendrickson.com> Sent: Wednesday, April 15, 2026 2:13 PM To: Adam Perrino <adam@elev8architecture.com>; Restoration North <welcomehome@restoration-north.com> Cc: Punj Rajan <punj@goluco.com>; Harshad Chandak <harshad.chandak@outlook.com> Subject: Re: Accessible // Luco proposal Hey Adam! See attached, received yesterday from Luco. Their design team is producing final renders and pricing as we speak, so at long last I can get on the phone wi",
-      "attachments": [],
-      "message_id": "SA1PR17MB758861C415E0AFDB81828B1B8BE42@SA1PR17MB7588.namprd17.prod.outlook.com",
-      "important": true,
-      "reason": "Email from a known contact regarding project compensation and path forward.",
-      "priority": "high"
-    },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Wed 17 Jun 2026 14:30 - 15:30\r\n (IST) (Harshad Chandak)",
+      "subject": "Notification: BNI meeting @ Thu 18 Jun 2026 07:00 - 08:00 (IST) (harrychandak.007@gmail.com)",
       "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-17T08:29:50+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Wednesday 17 Jun 2026 ⋅ 14:30 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/yvd-rexe-nma?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=NW5xaDdydjU1ZXFhcHBobzE4dWZ1NG9kOTVfMjAyNjA2MTdUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tMTE2NjdlMDRkN2RhNmM5ZDcxYTBjMmI5ODVmOTIxNmNhYzliZjZjNw&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=NW5xaDdydjU1ZXFhcHBobzE4dWZ1NG9kOTVfMjAyNjA2MTdUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tMTE2NjdlMDRkN2RhNmM5ZDcxYTBjMmI5ODVmOTIxNmNhYzliZjZjNw&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Goog",
+      "date": "2026-06-18T01:00:06+00:00",
+      "snippet": "You have an upcoming event BNI meeting Thursday 18 Jun 2026 ⋅ 07:00 – 08:00 India Standard Time - Kolkata Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
       "attachments": [],
-      "message_id": "calendar-e7fbfabe-07c4-4779-865b-4bb08fb7fdc4@google.com",
+      "message_id": "calendar-8090363a-3606-4e2a-8757-f7f40bbad9ac@google.com",
       "important": true,
-      "reason": "Google Calendar notification for a meeting related to 'Saharsh'.",
+      "reason": "BNI meeting notification. BNI Veer chapter members are always important.",
       "priority": "medium"
     }
   ],
@@ -35,14 +22,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
@@ -56,14 +43,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 8,
+      "count": 2,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
