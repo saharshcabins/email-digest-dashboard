@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T10:56:19.415622+00:00",
-  "total_checked": 7,
+  "generated_at": "2026-06-20T15:57:53.262562+00:00",
+  "total_checked": 10,
   "total_important": 1,
   "important": [
     {
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "calendar-d7846e3e-c39b-47d5-bcf2-4be7a29562f3@google.com",
       "important": true,
-      "reason": "Google Calendar notification for 'Saharsh' discussion, indicating a lead/project.",
+      "reason": "Calendar notification for 'Saharsh' discussion, related to key project.",
       "priority": "medium"
     }
   ],
@@ -29,7 +29,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null
     },
     {
@@ -43,7 +43,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
