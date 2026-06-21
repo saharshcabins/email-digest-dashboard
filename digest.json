@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-21T11:28:11.776900+00:00",
-  "total_checked": 9,
-  "total_important": 2,
+  "generated_at": "2026-06-21T16:14:28.895505+00:00",
+  "total_checked": 7,
+  "total_important": 1,
   "important": [
     {
       "account_label": "Personal Gmail (harrychandak)",
@@ -13,20 +13,7 @@
       "attachments": [],
       "message_id": "calendar-c3bc0583-aa23-420d-b01a-04b1cd7d7c16@google.com",
       "important": true,
-      "reason": "Calendar notification for a 'Saharsh' related discussion.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Upcoming BNI Veer Chapter Renewals - Membership Committee Reminder",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-21T04:21:15+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019ee8694d0e-c1e41fc3-06f6-430b-b33c-c2c0c8ff6983-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from BNI Notifications regarding chapter renewals.",
+      "reason": "Calendar notification for a Saharsh related discussion.",
       "priority": "medium"
     }
   ],
@@ -42,7 +29,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
@@ -63,7 +50,7 @@
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
