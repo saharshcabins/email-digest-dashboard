@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-20T15:57:53.262562+00:00",
-  "total_checked": 10,
+  "generated_at": "2026-06-21T07:15:25.339906+00:00",
+  "total_checked": 6,
   "total_important": 1,
   "important": [
     {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Sat 20 Jun 2026 12:00 - 12:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-20T05:59:55+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Saturday 20 Jun 2026 ⋅ 12:00 – 12:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/pns-zewc-ojt?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=ZjlpczlvYzZtYXVtaDcxajhrNWxuOHZqaWtfMjAyNjA2MjBUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2EwNjM5NjAxMDczNjJhNGUyZjUyODBiMjg2MzkyZWNlNjdhNTZmYQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=ZjlpczlvYzZtYXVtaDcxajhrNWxuOHZqaWtfMjAyNjA2MjBUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2EwNjM5NjAxMDczNjJhNGUyZjUyODBiMjg2MzkyZWNlNjdhNTZmYQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Googl",
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "Upcoming BNI Veer Chapter Renewals - Membership Committee Reminder",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-21T04:21:15+00:00",
+      "snippet": "",
       "attachments": [],
-      "message_id": "calendar-d7846e3e-c39b-47d5-bcf2-4be7a29562f3@google.com",
+      "message_id": "0107019ee8694d0e-c1e41fc3-06f6-430b-b33c-c2c0c8ff6983-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "Calendar notification for 'Saharsh' discussion, related to key project.",
-      "priority": "medium"
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member is 'ALWAYS IMPORTANT'.",
+      "priority": "high"
     }
   ],
   "account_status": [
@@ -22,21 +22,21 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 5,
+      "count": 2,
       "error": null
     },
     {
       "label": "IIT KGP Gmail",
       "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -50,7 +50,7 @@
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     }
   ]
