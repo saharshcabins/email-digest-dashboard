@@ -1,8 +1,21 @@
 {
-  "generated_at": "2026-06-21T07:15:25.339906+00:00",
-  "total_checked": 6,
-  "total_important": 1,
+  "generated_at": "2026-06-21T11:28:11.776900+00:00",
+  "total_checked": 9,
+  "total_important": 2,
   "important": [
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Notification: Saharsh - US Discussion @ Sun 21 Jun 2026 14:30 - 15:00\r\n (IST) (Harshad Chandak)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-06-21T08:29:56+00:00",
+      "snippet": "You have an upcoming event Saharsh - US Discussion Sunday 21 Jun 2026 ⋅ 14:30 – 15:00 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/pns-zewc-ojt?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=ZjlpczlvYzZtYXVtaDcxajhrNWxuOHZqaWtfMjAyNjA2MjFUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tYWRmNzgxODE2MmE1N2U0ZmZkMjljMGFmMDQ0M2Q0N2I4NDg0ODQ5MQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=ZjlpczlvYzZtYXVtaDcxajhrNWxuOHZqaWtfMjAyNjA2MjFUMDkwMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tYWRmNzgxODE2MmE1N2U0ZmZkMjljMGFmMDQ0M2Q0N2I4NDg0ODQ5MQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google ",
+      "attachments": [],
+      "message_id": "calendar-c3bc0583-aa23-420d-b01a-04b1cd7d7c16@google.com",
+      "important": true,
+      "reason": "Calendar notification for a 'Saharsh' related discussion.",
+      "priority": "medium"
+    },
     {
       "account_label": "Saharsh.co (Zoho)",
       "account_email": "harshad@saharsh.co",
@@ -13,8 +26,8 @@
       "attachments": [],
       "message_id": "0107019ee8694d0e-c1e41fc3-06f6-430b-b33c-c2c0c8ff6983-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "Email from BNI Notifications, a BNI Veer chapter member is 'ALWAYS IMPORTANT'.",
-      "priority": "high"
+      "reason": "Email from BNI Notifications regarding chapter renewals.",
+      "priority": "medium"
     }
   ],
   "account_status": [
@@ -29,7 +42,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null
     },
     {
@@ -43,7 +56,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
