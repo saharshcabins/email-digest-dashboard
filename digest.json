@@ -1,35 +1,21 @@
 {
-  "generated_at": "2026-06-23T06:31:36.511986+00:00",
-  "total_checked": 7,
-  "total_important": 1,
-  "important": [
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: BNI Martha <> Meet & Greet meeting @ Tue 23 Jun 2026\r\n 08:00 - 09:00 (IST) (harrychandak.007@gmail.com)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-23T01:59:54+00:00",
-      "snippet": "You have an upcoming event BNI Martha <> Meet & Greet meeting Tuesday 23 Jun 2026 ⋅ 08:00 – 09:00 India Standard Time - Kolkata Location Online call https://www.google.com/maps/search/Online+call?hl=en-GB Join with Google Meet https://meet.google.com/kiz-noad-cgd?hs=224 Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
-      "attachments": [],
-      "message_id": "calendar-deb7164b-f794-49d6-b046-cc588cc7fc36@google.com",
-      "important": true,
-      "reason": "BNI Veer chapter member related email.",
-      "priority": "high"
-    }
-  ],
+  "generated_at": "2026-06-23T11:37:54.642444+00:00",
+  "total_checked": 19,
+  "total_important": 0,
+  "important": [],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 7,
+      "count": 10,
       "error": null
     },
     {
@@ -43,14 +29,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 0,
+      "count": 5,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 0,
+      "count": 3,
       "error": null
     }
   ]
