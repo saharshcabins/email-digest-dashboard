@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T11:22:24.140426+00:00",
-  "total_checked": 14,
+  "generated_at": "2026-06-24T16:37:47.410388+00:00",
+  "total_checked": 17,
   "total_important": 0,
   "important": [],
   "account_status": [
@@ -8,14 +8,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -29,7 +29,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null
     },
     {
