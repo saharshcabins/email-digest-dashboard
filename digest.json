@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T11:21:45.529176+00:00",
-  "total_checked": 9,
+  "generated_at": "2026-06-26T16:31:24.311875+00:00",
+  "total_checked": 13,
   "total_important": 4,
   "important": [
     {
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019f023ac990-4e276e60-2fcc-4290-b502-2ff0798da932-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury cottage.",
+      "reason": "New lead from Saharsh Cabins contact form, important.",
       "priority": "high"
     },
     {
@@ -26,7 +26,7 @@
       "attachments": [],
       "message_id": "0106019f023ac990-4e276e60-2fcc-4290-b502-2ff0798da932-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury cottage.",
+      "reason": "New lead from Saharsh Cabins contact form, important.",
       "priority": "high"
     },
     {
@@ -39,7 +39,7 @@
       "attachments": [],
       "message_id": "calendar-03f0b583-cf20-45b0-8063-cf2791394659@google.com",
       "important": true,
-      "reason": "Google Calendar notification for 'Saharsh' discussion, indicating an ongoing project.",
+      "reason": "Google Calendar notification for a Saharsh related discussion.",
       "priority": "medium"
     },
     {
@@ -52,7 +52,7 @@
       "attachments": [],
       "message_id": "019f02eb-4f79-711a-9145-2eb22ae017f8@getbehindthebrand.info",
       "important": true,
-      "reason": "Cold outreach from unknown sender about acquiring clients for Saharsh, related to business.",
+      "reason": "Cold sales outreach specifically mentioning Saharsh and client acquisition.",
       "priority": "medium"
     }
   ],
@@ -68,7 +68,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 6,
+      "count": 8,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null
     }
   ]
