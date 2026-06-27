@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T10:32:03.073474+00:00",
-  "total_checked": 14,
-  "total_important": 8,
+  "generated_at": "2026-06-27T15:47:59.542451+00:00",
+  "total_checked": 18,
+  "total_important": 6,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019f0890675d-dbc58fc0-38d0-47d0-a6ce-9c713a388645-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in cabins.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -26,33 +26,7 @@
       "attachments": [],
       "message_id": "0106019f0890675d-dbc58fc0-38d0-47d0-a6ce-9c713a388645-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in cabins.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Your Project: Email Project is at risk of suspension",
-      "from": "\"Google Cloud Platform, Firebase and APIs\" <CloudPlatform-noreply@google.com>",
-      "date": "2026-06-26T21:40:09-07:00",
-      "snippet": "Google Cloud Platform Go to my console » Action required Dear Google customer, You are receiving this email because you are a Google Cloud Platform, Firebase or API customer. The billing account that project \"Email Project\" (gen-lang-client-0183043761) is billed to (015C91-BF959C-118575) is past due or does not have valid payment information associated with it. This may happen if your credit card has expired or was cancelled. To ensure that your services are not interrupted, please ask your billing administrator to update your billing account with valid payment information by following this link: https://console.cloud.google.com/billing/015C91-BF959C-118575/manage?project=gen-lang-client-0183043761 If you have already updated your payment information, please disregard this message. If you have any questions, please contact us using this form: https://support.google.com/code/contact/cloud_platform_billing The Google team Google Plus Twitter Blogger © 2026 Google LLC, 1600 Amphitheatre P",
-      "attachments": [],
-      "message_id": "fc590d3f6fdca9d5eb04416e6ab7baf7e690b23a-359501-796023@google.com",
-      "important": true,
-      "reason": "Urgent action required for Google Cloud Platform billing, risk of suspension.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Action required: your billing account 015C91-BF959C-118575 is past\r\n due or has invalid payment information.",
-      "from": "\"Google Cloud Platform, Firebase and APIs\" <CloudPlatform-noreply@google.com>",
-      "date": "2026-06-26T21:40:08-07:00",
-      "snippet": "Google Cloud Platform Go to my console » Action required Dear Google customer, You are receiving this email because you are a Google Cloud Platform, Firebase or API customer. Our records indicate that your billing account: 015C91-BF959C-118575 is overdue or does not have valid payment information associated with it. This may happen if your credit card has expired or was cancelled, and we haven't received valid payment information from you. Please update your billing account with valid payment information by following this link: https://console.cloud.google.com/billing/015C91-BF959C-118575/settings Failure to make payments may result in the suspension and/or termination of your billing account and the related project(s) or service(s). Note that some services might already be impacted. If you have already updated your payment information, please disregard this message. If you have any questions, please contact us using this form: https://support.google.com/code/contact/cloud_platform_bil",
-      "attachments": [],
-      "message_id": "b96187dce1776eb00fcdb5caacb353254d55c84e-359501-644015@google.com",
-      "important": true,
-      "reason": "Urgent action required for Google Cloud Platform billing, account past due.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -65,7 +39,7 @@
       "attachments": [],
       "message_id": "0107019f085b80a9-edeb9eac-3d29-491c-ab67-c3385e68c3c9-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI member notification, BNI members are always important.",
+      "reason": "BNI member notification, always important.",
       "priority": "medium"
     },
     {
@@ -78,7 +52,7 @@
       "attachments": [],
       "message_id": "0107019f085b1559-448eb256-eba1-4ce5-a65d-f77efc0914fa-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI member notification, BNI members are always important.",
+      "reason": "BNI member notification, always important.",
       "priority": "medium"
     },
     {
@@ -91,7 +65,7 @@
       "attachments": [],
       "message_id": "calendar-92b89835-34fc-49c6-8b32-36435bc684b1@google.com",
       "important": true,
-      "reason": "Google Calendar notification for a 'Saharsh' discussion, indicating project activity.",
+      "reason": "Calendar notification for Saharsh project discussion.",
       "priority": "medium"
     },
     {
@@ -104,7 +78,7 @@
       "attachments": [],
       "message_id": "0107019f084ed8e2-ec3b2766-f0ec-4403-b247-c8533303a74a-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI member notification, BNI members are always important.",
+      "reason": "BNI member notification, always important.",
       "priority": "medium"
     }
   ],
@@ -113,7 +87,7 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -134,7 +108,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 3,
+      "count": 6,
       "error": null
     },
     {
