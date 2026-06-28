@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-06-28T10:38:58.046420+00:00",
+  "generated_at": "2026-06-28T15:47:23.178834+00:00",
   "total_checked": 10,
-  "total_important": 3,
+  "total_important": 1,
   "important": [
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Bharat Upadhyay",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-28T03:35:44+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bharat Upadhyay Phone: 8266882222 Email: akash.sharma6162@gmail.com Project Location: Goverdhan,Mathura Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes:",
-      "attachments": [],
-      "message_id": "0106019f0c4c25d2-ddefe8e0-3559-491b-a4e0-313b168d3e71-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury villa.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Bharat Upadhyay",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-28T03:35:44+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bharat Upadhyay Phone: 8266882222 Email: akash.sharma6162@gmail.com Project Location: Goverdhan,Mathura Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes:",
-      "attachments": [],
-      "message_id": "0106019f0c4c25d2-ddefe8e0-3559-491b-a4e0-313b168d3e71-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury villa.",
-      "priority": "high"
-    },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
@@ -48,14 +22,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -69,14 +43,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
