@@ -1,85 +1,33 @@
 {
-  "generated_at": "2026-06-27T15:47:59.542451+00:00",
-  "total_checked": 18,
-  "total_important": 6,
+  "generated_at": "2026-06-28T06:42:05.717964+00:00",
+  "total_checked": 4,
+  "total_important": 2,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Sunny",
+      "subject": "New Contact Request - Bharat Upadhyay",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-27T10:11:49+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Sunny Phone: +91 85273 36655 Email: sunny.lakhmani@gmail.com Project Location: Varanasi Interest: Sales Office Budget: ₹10L – ₹25L Timeline: 2 – 6 Months Contact Method: Phone Call Notes: I am looking for movable square shaped container for 34×40 size",
+      "date": "2026-06-28T03:35:44+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bharat Upadhyay Phone: 8266882222 Email: akash.sharma6162@gmail.com Project Location: Goverdhan,Mathura Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes:",
       "attachments": [],
-      "message_id": "0106019f0890675d-dbc58fc0-38d0-47d0-a6ce-9c713a388645-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f0c4c25d2-ddefe8e0-3559-491b-a4e0-313b168d3e71-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
+      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury villa.",
       "priority": "high"
     },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Sunny",
+      "subject": "New Contact Request - Bharat Upadhyay",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-06-27T10:11:49+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Sunny Phone: +91 85273 36655 Email: sunny.lakhmani@gmail.com Project Location: Varanasi Interest: Sales Office Budget: ₹10L – ₹25L Timeline: 2 – 6 Months Contact Method: Phone Call Notes: I am looking for movable square shaped container for 34×40 size",
+      "date": "2026-06-28T03:35:44+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bharat Upadhyay Phone: 8266882222 Email: akash.sharma6162@gmail.com Project Location: Goverdhan,Mathura Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes:",
       "attachments": [],
-      "message_id": "0106019f0890675d-dbc58fc0-38d0-47d0-a6ce-9c713a388645-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f0c4c25d2-ddefe8e0-3559-491b-a4e0-313b168d3e71-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
+      "reason": "New lead from Saharsh Cabins contact form, indicating interest in luxury villa.",
       "priority": "high"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-27T09:14:02+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f085b80a9-edeb9eac-3d29-491c-ab67-c3385e68c3c9-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI member notification, always important.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-27T09:13:34+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f085b1559-448eb256-eba1-4ce5-a65d-f77efc0914fa-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI member notification, always important.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Sat 27 Jun 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-27T09:00:14+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Saturday 27 Jun 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjdUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNWI0ZjgyYWEyMGYwNDcwMzg5NTIzYmI0N2YwOGE3MzRhNDIzZjUzZQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjdUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNWI0ZjgyYWEyMGYwNDcwMzg5NTIzYmI0N2YwOGE3MzRhNDIzZjUzZQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Googl",
-      "attachments": [],
-      "message_id": "calendar-92b89835-34fc-49c6-8b32-36435bc684b1@google.com",
-      "important": true,
-      "reason": "Calendar notification for Saharsh project discussion.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI Reminder: You are registered to attend BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-27T09:00:12+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f084ed8e2-ec3b2766-f0ec-4403-b247-c8533303a74a-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI member notification, always important.",
-      "priority": "medium"
     }
   ],
   "account_status": [
@@ -87,14 +35,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 6,
+      "count": 2,
       "error": null
     },
     {
@@ -108,14 +56,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 6,
+      "count": 0,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 4,
+      "count": 1,
       "error": null
     }
   ]
