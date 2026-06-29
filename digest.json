@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T12:45:22.066885+00:00",
-  "total_checked": 14,
-  "total_important": 6,
+  "generated_at": "2026-06-29T17:16:25.377581+00:00",
+  "total_checked": 29,
+  "total_important": 13,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -13,7 +13,7 @@
       "attachments": [],
       "message_id": "0106019f12aa6678-ef9d5723-f3b5-4c8f-87d2-501ac34c2933-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -26,7 +26,7 @@
       "attachments": [],
       "message_id": "0106019f12aa6678-ef9d5723-f3b5-4c8f-87d2-501ac34c2933-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -39,7 +39,7 @@
       "attachments": [],
       "message_id": "0106019f11dff072-673ce2e5-16e3-4914-a4ec-5b3c33d6b35a-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
@@ -52,8 +52,112 @@
       "attachments": [],
       "message_id": "0106019f11dff072-673ce2e5-16e3-4914-a4ec-5b3c33d6b35a-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:21:35+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f138adc85-a3a21494-fe3b-4cc4-b3f6-50acbaaf7360-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:21:35+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f138adc64-e6204401-c375-4959-87c3-0bf60883149d-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:20:41+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f138a0ba6-bd5bcf67-3234-40d2-a54c-662cf4c72c5d-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:20:22+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1389c13c-b8379b46-484d-439a-9ada-e0b9c4fc6957-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:19:43+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f138925de-21f7d403-72b8-44f1-8f25-0904bb17fcc2-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:19:06+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1388973b-28ca1901-4865-4180-8bc6-9560862e64e4-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:18:22+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1387eb50-1f344480-a52e-417e-8349-37885fe18e51-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI India Market Place\r\n 30th June 2026 on 30/06/2026 3:00 PM to 30/06/2026 5:00 PM : BNI India\r\n Market Place 30th June 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-29T13:18:01+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f13879a74-dc5101f1-0f17-4352-a4c1-4a3ccb80618a-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Notifications, a BNI Veer chapter member.",
+      "priority": "medium"
     },
     {
       "account_label": "Saharsh.co (Zoho)",
@@ -66,19 +170,6 @@
       "message_id": "0107019f129b9902-bacc9faa-34c5-48a5-a00d-8a0417cc3be5-000000@eu-central-1.amazonses.com",
       "important": true,
       "reason": "BNI Veer chapter member notification.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Mon 29 Jun 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-29T08:59:52+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Monday 29 Jun 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjlUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZmYyMDJhY2VmOWU1ODBmYzc4NzcwZDU5YzMyYzhiNDkzMjY4ZWE3OQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjlUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZmYyMDJhY2VmOWU1ODBmYzc4NzcwZDU5YzMyYzhiNDkzMjY4ZWE3OQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google ",
-      "attachments": [],
-      "message_id": "calendar-6888cc40-6f17-4064-9430-6d878b9ca471@google.com",
-      "important": true,
-      "reason": "Calendar notification for Saharsh discussion, related to key project.",
       "priority": "medium"
     }
   ],
@@ -94,7 +185,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -108,14 +199,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 11,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 9,
       "error": null
     }
   ]
