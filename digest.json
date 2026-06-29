@@ -1,35 +1,21 @@
 {
-  "generated_at": "2026-06-28T15:47:23.178834+00:00",
-  "total_checked": 10,
-  "total_important": 1,
-  "important": [
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Sun 28 Jun 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-06-28T09:00:00+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Sunday 28 Jun 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjhUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZmEyY2E3OTAzYjkwZmM4M2QwOWMwNGU2MTAwNzgyN2M2NmIzZjNiOA&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA2MjhUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZmEyY2E3OTAzYjkwZmM4M2QwOWMwNGU2MTAwNzgyN2M2NmIzZjNiOA&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google ",
-      "attachments": [],
-      "message_id": "calendar-aee00289-3bbb-403e-b2da-8059b20e23bf@google.com",
-      "important": true,
-      "reason": "Google Calendar notification for a 'Saharsh' related discussion.",
-      "priority": "medium"
-    }
-  ],
+  "generated_at": "2026-06-29T07:11:35.822961+00:00",
+  "total_checked": 8,
+  "total_important": 0,
+  "important": [],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 8,
+      "count": 5,
       "error": null
     },
     {
@@ -43,14 +29,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     }
   ]
