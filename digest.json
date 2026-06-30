@@ -1,8 +1,99 @@
 {
-  "generated_at": "2026-06-30T11:25:36.868024+00:00",
-  "total_checked": 12,
-  "total_important": 5,
+  "generated_at": "2026-06-30T16:35:16.328379+00:00",
+  "total_checked": 17,
+  "total_important": 10,
   "important": [
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-30T15:07:33+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f19123b69-d44d4ef9-8b6b-4d72-a26c-49268e2c53c0-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI member, which is always important.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-30T15:07:30+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1912301b-61290cce-b85f-47b7-84ef-757a2eab1efa-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI member, which is always important.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "A referral you passed to Mallesh Siddappa has been updated to Got\r\n The Business",
+      "from": "BNI Connect Referral Notification <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-30T13:36:52+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f18bf3901-6eb68189-da97-4213-91ea-7f1281bcbbeb-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI member, which is always important.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - reema ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-06-30T13:36:29+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: reema Phone: 9632600344 Email: reemalhotra14@gmail.com Project Location: bangalore Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: looking for a small budget friendly cottage of 1000sqft",
+      "attachments": [],
+      "message_id": "0106019f18bedd45-c6daae0b-77b9-44ab-87af-e35405a4c9cf-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, matching 'Luxury Cottage' interest.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - reema ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-06-30T13:36:29+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: reema Phone: 9632600344 Email: reemalhotra14@gmail.com Project Location: bangalore Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: looking for a small budget friendly cottage of 1000sqft",
+      "attachments": [],
+      "message_id": "0106019f18bedd45-c6daae0b-77b9-44ab-87af-e35405a4c9cf-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, matching 'Luxury Cottage' interest.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-30T12:52:44+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1896d072-28ce51ca-d38d-4ba8-8210-2aeeb10c4427-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI member, which is always important.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-06-30T12:52:35+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f1896acac-794291ff-84f4-4afc-9a06-a3fa42108f96-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI member, which is always important.",
+      "priority": "high"
+    },
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
@@ -13,7 +104,7 @@
       "attachments": [],
       "message_id": "0106019f16d400f6-345dd035-a279-4477-9878-35a690847b12-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New contact request from Saharsh Cabins contact form, indicating a lead.",
+      "reason": "New lead from Saharsh Cabins contact form, matching 'Luxury Villa' interest.",
       "priority": "high"
     },
     {
@@ -26,7 +117,7 @@
       "attachments": [],
       "message_id": "0106019f16d400f6-345dd035-a279-4477-9878-35a690847b12-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New contact request from Saharsh Cabins contact form, indicating a lead.",
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in a luxury villa.",
       "priority": "high"
     },
     {
@@ -39,33 +130,7 @@
       "attachments": [],
       "message_id": "calendar-c9dc4edc-6b28-42dd-811e-427cd6c7f9ae@google.com",
       "important": true,
-      "reason": "Calendar notification for a 'Saharsh' discussion, indicating a project-related meeting.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-30T03:47:03+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f16a33787-43fcbdf7-ef79-4a91-bc66-6cb0613232ec-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI notification, BNI Veer chapter members are always important.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI- Your registration is successful for BNI Bangalore Members Day\r\n 29th August 2026 on 29/08/2026 7:00 AM to 29/08/2026 11:00 PM : BNI\r\n Bangalore Members Day 29th August 2026",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-06-30T03:46:27+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f16a2aa56-613027f7-ab22-4faf-a55b-d9341d3da4ae-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI notification, BNI Veer chapter members are always important.",
+      "reason": "Google Calendar notification for 'Saharsh' discussion.",
       "priority": "medium"
     }
   ],
@@ -74,14 +139,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -102,7 +167,7 @@
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 2,
+      "count": 5,
       "error": null
     }
   ]
