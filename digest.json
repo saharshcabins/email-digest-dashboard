@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-07-02T06:14:41.933747+00:00",
-  "total_checked": 8,
-  "total_important": 3,
+  "generated_at": "2026-07-02T11:05:16.948340+00:00",
+  "total_checked": 18,
+  "total_important": 5,
   "important": [
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - Prakash Shah",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-02T10:03:36+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Prakash Shah Phone: 9574168259 Email: shahpb74@gmail.com Project Location: Viramgam Interest: Resort Development Budget: ₹25L – ₹50L Timeline: 6+ Months Contact Method: WhatsApp Notes:",
+      "attachments": [],
+      "message_id": "0106019f2248ad51-d087d9aa-859b-4608-b938-b43302a923bf-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form for resort development.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - Prakash Shah",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-02T10:03:36+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Prakash Shah Phone: 9574168259 Email: shahpb74@gmail.com Project Location: Viramgam Interest: Resort Development Budget: ₹25L – ₹50L Timeline: 6+ Months Contact Method: WhatsApp Notes:",
+      "attachments": [],
+      "message_id": "0106019f2248ad51-d087d9aa-859b-4608-b938-b43302a923bf-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form for resort development.",
+      "priority": "high"
+    },
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
@@ -13,7 +39,7 @@
       "attachments": [],
       "message_id": "0106019f215ffcfd-7f1248d4-56ae-41e2-9a5f-56ebf8d6898e-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
+      "reason": "New lead from Saharsh Cabins contact form for resort development.",
       "priority": "high"
     },
     {
@@ -26,20 +52,20 @@
       "attachments": [],
       "message_id": "0106019f215ffcfd-7f1248d4-56ae-41e2-9a5f-56ebf8d6898e-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
+      "reason": "New lead from Saharsh Cabins contact form for resort development.",
       "priority": "high"
     },
     {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: BNI meeting @ Thu 2 Jul 2026 07:00 - 08:00 (IST) (harrychandak.007@gmail.com)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-07-02T01:00:08+00:00",
-      "snippet": "You have an upcoming event BNI meeting Thursday 2 Jul 2026 ⋅ 07:00 – 08:00 India Standard Time - Kolkata Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "TEST",
+      "from": "bni.notifications@bniconnectglobal.com",
+      "date": "2026-07-02T09:43:13+00:00",
+      "snippet": "",
       "attachments": [],
-      "message_id": "calendar-713ddd7f-e50a-402a-aa33-07b7408ffdf0@google.com",
+      "message_id": "0107019f2236073b-4e472534-4302-4809-a98a-81f840b3f758-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI meeting notification; BNI Veer chapter members are always important.",
+      "reason": "Email from a BNI Veer chapter member.",
       "priority": "medium"
     }
   ],
@@ -48,14 +74,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 5,
+      "count": 9,
       "error": null
     },
     {
@@ -69,14 +95,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 6,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     }
   ]
