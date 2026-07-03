@@ -1,8 +1,61 @@
 {
-  "generated_at": "2026-07-03T06:07:53.910359+00:00",
-  "total_checked": 11,
-  "total_important": 0,
-  "important": [],
+  "generated_at": "2026-07-03T11:07:27.946406+00:00",
+  "total_checked": 15,
+  "total_important": 4,
+  "important": [
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - Bhupendra Singh ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-03T07:41:54+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bhupendra Singh Phone: 9628161177 Email: bhupendrauprari@yahoo.com Project Location: Lucknow Interest: Resort Development Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: Phone Call Notes: I have land of approx 60000sq ft but it's in L shape and has lot of greenery.Want to build for air bnb or green resort",
+      "attachments": [],
+      "message_id": "0106019f26ed4ee5-91ca4981-230a-475b-a0a0-a64cd1266873-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - Bhupendra Singh ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-03T07:41:54+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Bhupendra Singh Phone: 9628161177 Email: bhupendrauprari@yahoo.com Project Location: Lucknow Interest: Resort Development Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: Phone Call Notes: I have land of approx 60000sq ft but it's in L shape and has lot of greenery.Want to build for air bnb or green resort",
+      "attachments": [],
+      "message_id": "0106019f26ed4ee5-91ca4981-230a-475b-a0a0-a64cd1266873-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Notification: Saharsh - US Discussion @ Fri 3 Jul 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-07-03T08:59:57+00:00",
+      "snippet": "You have an upcoming event Saharsh - US Discussion Friday 3 Jul 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDNUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tODJjMzljMmYxNzBjZWM5MjBkNDY3M2IwZmEzNWExZDljNTI5YzgxNQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDNUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tODJjMzljMmYxNzBjZWM5MjBkNDY3M2IwZmEzNWExZDljNTI5YzgxNQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google C",
+      "attachments": [],
+      "message_id": "calendar-3f2aa51b-9189-45e5-9877-931d588aed4c@google.com",
+      "important": true,
+      "reason": "Calendar notification for 'Saharsh - US Discussion' event.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "Presentation shared with you: \"Veer_Online_Weekly Presentation_2026_.pptx\"",
+      "from": "\"BNI VEER LT (via Google Slides)\" <drive-shares-dm-noreply@google.com>",
+      "date": "2026-07-03T07:38:44+00:00",
+      "snippet": "I've shared an item with you: Veer_Online_Weekly Presentation_2026_.pptx https://docs.google.com/presentation/d/1zLg5Nxr_KdyqZ8OaVOMsUI8gNeBShrqt/edit?usp=sharing&rtpof=true&sd=true&invite=CL_27ugC&ts=6a476704&sh=n_qDoaqcG2wMUFnN&ca=1 It's not an attachment -- it's stored online. To open this item, just click the link above. Hi , Greetings !!!! Sharing the weekly ppt for editing / Formating . regards Anu",
+      "attachments": [],
+      "message_id": "autogen-java-7ec27fb8-fa72-447d-8f97-239f6fd0d2f8@google.com",
+      "important": true,
+      "reason": "Email from a BNI Veer chapter member.",
+      "priority": "medium"
+    }
+  ],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
@@ -15,7 +68,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -29,14 +82,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     }
   ]
