@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-03T16:05:48.412004+00:00",
-  "total_checked": 14,
+  "generated_at": "2026-07-04T05:58:26.754362+00:00",
+  "total_checked": 1,
   "total_important": 0,
   "important": [],
   "account_status": [
@@ -8,35 +8,35 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 4,
+      "count": 1,
       "error": null
     },
     {
       "label": "IIT KGP Gmail",
       "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
-      "count": 4,
+      "count": 0,
       "error": null
     },
     {
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 4,
+      "count": 0,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
