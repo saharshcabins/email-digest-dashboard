@@ -1,47 +1,32 @@
 {
-  "generated_at": "2026-07-04T15:40:03.008609+00:00",
+  "generated_at": "2026-07-05T06:23:08.899528+00:00",
   "total_checked": 4,
-  "total_important": 3,
+  "total_important": 2,
   "important": [
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "bank statement May 26",
-      "from": "Nagpur <nagpur@saharsh.co>",
-      "date": "2026-07-04T12:40:21+05:30",
-      "snippet": "Regards, Shadab Khan | 8850130749 Saharsh | Portable Cabins and Prefab Structures Manufacturing units: https://goo.gl/maps/K6opP48sWzxYKoZP8 | https://goo.gl/maps/kd37ikRZnsoswRpR8 | https://goo.gl/maps/jLE8KskPCcvhRS6p6 | https://goo.gl/maps/RZHLo6zZ9SccXadK8 | https://goo.gl/maps/pAJVUvCNCfpkLKw26 Follow us: http://www.saharsh.co/ | https://instagram.com/saharshcabins?igshid=OGQ5ZDc2ODk2ZA==",
-      "attachments": [
-        "Acct Statement_2561_09062026_22.41.02.xls"
-      ],
-      "message_id": "19f2bf6c7b7.edb2f229461385.3991612896866389481@saharsh.co",
-      "important": true,
-      "reason": "Financial document from Saharsh, a key organization.",
-      "priority": "high"
-    },
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Vivekananda Chnda",
+      "subject": "New Contact Request - JUGNU SHARMA",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-04T11:07:16+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Vivekananda Chnda Phone: 09851664026 Email: pulockin@yahoo.co.in Project Location: Diamond Harbour, 24 Paragana South, West Bengal, PIN -74331 Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: WhatsApp Notes:",
+      "date": "2026-07-05T02:30:09+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: JUGNU SHARMA Phone: 09712914360 Email: jugnu1971@gmail.com Project Location: Bahucharajee Gujarat Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes: 1 -2 rooms with Pantry and wash & toilet.should be suitable for 2 person",
       "attachments": [],
-      "message_id": "0106019f2ccfafaf-4e2a1b5c-b6d8-4e1a-8715-fba74033fabb-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f301c9e69-7d64e8ff-0c31-4476-872c-8b316aa3989d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching 'luxury cottage' interest.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Vivekananda Chnda",
+      "subject": "New Contact Request - JUGNU SHARMA",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-04T11:07:16+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Vivekananda Chnda Phone: 09851664026 Email: pulockin@yahoo.co.in Project Location: Diamond Harbour, 24 Paragana South, West Bengal, PIN -74331 Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: WhatsApp Notes:",
+      "date": "2026-07-05T02:30:09+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: JUGNU SHARMA Phone: 09712914360 Email: jugnu1971@gmail.com Project Location: Bahucharajee Gujarat Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: 6+ Months Contact Method: WhatsApp Notes: 1 -2 rooms with Pantry and wash & toilet.should be suitable for 2 person",
       "attachments": [],
-      "message_id": "0106019f2ccfafaf-4e2a1b5c-b6d8-4e1a-8715-fba74033fabb-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f301c9e69-7d64e8ff-0c31-4476-872c-8b316aa3989d-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, matching 'luxury cottage' interest.",
+      "reason": "New lead from Saharsh Cabins contact form.",
       "priority": "high"
     }
   ],
@@ -71,14 +56,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
