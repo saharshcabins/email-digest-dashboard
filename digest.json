@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-07-06T12:22:31.495512+00:00",
-  "total_checked": 8,
-  "total_important": 3,
+  "generated_at": "2026-07-06T17:19:36.043533+00:00",
+  "total_checked": 13,
+  "total_important": 5,
   "important": [
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - Ranjit ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-06T13:48:02+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ranjit Phone: 9872435620 Email: ranjitbalhotra123@gmail.com Project Location: Himachal Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Contact Method: Phone Call Notes:",
+      "attachments": [],
+      "message_id": "0106019f37af997d-0a501b3c-818a-4e28-ac7d-f414162d5576-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - Ranjit ",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-06T13:48:02+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ranjit Phone: 9872435620 Email: ranjitbalhotra123@gmail.com Project Location: Himachal Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Contact Method: Phone Call Notes:",
+      "attachments": [],
+      "message_id": "0106019f37af997d-0a501b3c-818a-4e28-ac7d-f414162d5576-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Outlook",
+      "account_email": "harshad.chandak@outlook.com",
+      "subject": "ICICI Bank Statement from June 01, 2026 to June 30, 2026 for XXXXXXXX0793",
+      "from": "\"Estatement\" <estatement@icici.bank.in>",
+      "date": "2026-07-06T11:15:15+00:00",
+      "snippet": "",
+      "attachments": [
+        "Statement_2026MTH06_584574526.pdf"
+      ],
+      "message_id": "F92F85A0E4CEBF43AD8CCAF156D1276F@E.G",
+      "important": true,
+      "reason": "Financial document (bank statement) from known institution.",
+      "priority": "medium"
+    },
     {
       "account_label": "Saharsh.co (Zoho)",
       "account_email": "harshad@saharsh.co",
@@ -13,7 +54,7 @@
       "attachments": [],
       "message_id": "0107019f36a966a1-1023fdb2-9547-4330-8e2e-235279e63e33-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI Veer chapter member activity.",
+      "reason": "Email from BNI Veer chapter member notification.",
       "priority": "medium"
     },
     {
@@ -28,20 +69,7 @@
       ],
       "message_id": "0107019f36a961e1-4e3230c2-cd42-4905-bed0-4e5bf7646678-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI Veer chapter member activity.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Mon 6 Jul 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-07-06T08:59:55+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Monday 6 Jul 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDZUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZGY1M2YyNDczZmQyYzUxNzI2MjcyMmM3NTBmOTc4ZmM4NjA1NTk2MQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDZUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tZGY1M2YyNDczZmQyYzUxNzI2MjcyMmM3NTBmOTc4ZmM4NjA1NTk2MQ&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google C",
-      "attachments": [],
-      "message_id": "calendar-42351351-2b1d-45c5-93de-e91c503c4242@google.com",
-      "important": true,
-      "reason": "Calendar notification for 'Saharsh' related discussion.",
+      "reason": "Email from BNI Veer chapter member notification.",
       "priority": "medium"
     }
   ],
@@ -50,14 +78,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -71,7 +99,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 3,
+      "count": 6,
       "error": null
     },
     {
