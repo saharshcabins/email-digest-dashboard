@@ -1,75 +1,19 @@
 {
-  "generated_at": "2026-07-06T17:19:36.043533+00:00",
-  "total_checked": 13,
-  "total_important": 5,
+  "generated_at": "2026-07-07T06:28:48.964294+00:00",
+  "total_checked": 2,
+  "total_important": 1,
   "important": [
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Ranjit ",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-06T13:48:02+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ranjit Phone: 9872435620 Email: ranjitbalhotra123@gmail.com Project Location: Himachal Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Contact Method: Phone Call Notes:",
-      "attachments": [],
-      "message_id": "0106019f37af997d-0a501b3c-818a-4e28-ac7d-f414162d5576-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
-      "priority": "high"
-    },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Ranjit ",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-06T13:48:02+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ranjit Phone: 9872435620 Email: ranjitbalhotra123@gmail.com Project Location: Himachal Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Contact Method: Phone Call Notes:",
+      "subject": "Notification: BNI Martha @ Tue 7 Jul 2026 08:00 - 09:00 (IST) (harrychandak.007@gmail.com)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-07-07T01:59:46+00:00",
+      "snippet": "You have an upcoming event BNI Martha Tuesday 7 Jul 2026 ⋅ 08:00 – 09:00 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/gqc-zzri-imn?hs=224 Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
       "attachments": [],
-      "message_id": "0106019f37af997d-0a501b3c-818a-4e28-ac7d-f414162d5576-000000@ap-northeast-1.amazonses.com",
+      "message_id": "calendar-9dd50d4b-7a7f-41eb-8d25-9816a3859bd5@google.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Outlook",
-      "account_email": "harshad.chandak@outlook.com",
-      "subject": "ICICI Bank Statement from June 01, 2026 to June 30, 2026 for XXXXXXXX0793",
-      "from": "\"Estatement\" <estatement@icici.bank.in>",
-      "date": "2026-07-06T11:15:15+00:00",
-      "snippet": "",
-      "attachments": [
-        "Statement_2026MTH06_584574526.pdf"
-      ],
-      "message_id": "F92F85A0E4CEBF43AD8CCAF156D1276F@E.G",
-      "important": true,
-      "reason": "Financial document (bank statement) from known institution.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Bangalore South East - BNI Veer - Abhinandan  R has Renewed their\r\n Membership with Changes to their Profile",
-      "from": "Sys Admin <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-06T09:01:39+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f36a966a1-1023fdb2-9547-4330-8e2e-235279e63e33-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from BNI Veer chapter member notification.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI Veer - Abhinandan  R A Membership Renewal has been received",
-      "from": "Sys Admin <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-06T09:01:38+00:00",
-      "snippet": "",
-      "attachments": [
-        "1783328497000.pdf"
-      ],
-      "message_id": "0107019f36a961e1-4e3230c2-cd42-4905-bed0-4e5bf7646678-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from BNI Veer chapter member notification.",
+      "reason": "BNI chapter member event notification.",
       "priority": "medium"
     }
   ],
@@ -78,14 +22,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -99,14 +43,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 6,
+      "count": 0,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 2,
+      "count": 0,
       "error": null
     }
   ]
