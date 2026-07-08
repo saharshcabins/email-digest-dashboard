@@ -1,32 +1,58 @@
 {
-  "generated_at": "2026-07-07T16:44:11.679373+00:00",
-  "total_checked": 7,
-  "total_important": 2,
+  "generated_at": "2026-07-08T05:34:58.808850+00:00",
+  "total_checked": 9,
+  "total_important": 4,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Snehanshu Sarkar ",
+      "subject": "New Contact Request - VINAY CHAWLA",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-07T12:34:29+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Snehanshu Sarkar Phone: 7044674717 Email: snehanshu.sarkar@gmail.com Project Location: Arambol, North Goa Interest: Luxury Cottage Budget: ₹10L – ₹25L Timeline: 4 – 8 Weeks Contact Method: Phone Call Notes: 6 cottage @ 150-200 sqft including wahroom",
+      "date": "2026-07-08T03:47:59+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: VINAY CHAWLA Phone: 9910166133 Email: Suntopboys@gmail.com Project Location: Delhi Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Contact Method: Phone Call Notes: My land is located in nangal punjab and in golden huts dharuhera. I need 2 bedroom sets on both locations. Pls connect and where is your factory located",
       "attachments": [],
-      "message_id": "0106019f3c929c37-18ec589a-6cbc-42e6-9f5f-257d95f72209-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f3fd6f38b-ce143e57-f3ab-4a66-8115-7230c37519ec-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottages.",
+      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
       "priority": "high"
     },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Snehanshu Sarkar ",
+      "subject": "New Contact Request - VINAY CHAWLA",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-07T12:34:29+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Snehanshu Sarkar Phone: 7044674717 Email: snehanshu.sarkar@gmail.com Project Location: Arambol, North Goa Interest: Luxury Cottage Budget: ₹10L – ₹25L Timeline: 4 – 8 Weeks Contact Method: Phone Call Notes: 6 cottage @ 150-200 sqft including wahroom",
+      "date": "2026-07-08T03:47:59+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: VINAY CHAWLA Phone: 9910166133 Email: Suntopboys@gmail.com Project Location: Delhi Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Contact Method: Phone Call Notes: My land is located in nangal punjab and in golden huts dharuhera. I need 2 bedroom sets on both locations. Pls connect and where is your factory located",
       "attachments": [],
-      "message_id": "0106019f3c929c37-18ec589a-6cbc-42e6-9f5f-257d95f72209-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f3fd6f38b-ce143e57-f3ab-4a66-8115-7230c37519ec-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottages.",
+      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - vinod panwar",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-07T20:08:03+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: vinod panwar Phone: 9711027094 Email: vinodpanwar50@gmail.com Project Location: Uttrakhand Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: Phone Call Notes:",
+      "attachments": [],
+      "message_id": "0106019f3e31debf-65090125-2f10-4687-ac6e-be0de19a40f4-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, interest in luxury villa.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - vinod panwar",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-07T20:08:03+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: vinod panwar Phone: 9711027094 Email: vinodpanwar50@gmail.com Project Location: Uttrakhand Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: Phone Call Notes:",
+      "attachments": [],
+      "message_id": "0106019f3e31debf-65090125-2f10-4687-ac6e-be0de19a40f4-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, interest in luxury villa.",
       "priority": "high"
     }
   ],
@@ -35,14 +61,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -56,14 +82,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
