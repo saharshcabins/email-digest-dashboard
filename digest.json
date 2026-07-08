@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-07-08T10:34:00.289691+00:00",
-  "total_checked": 14,
-  "total_important": 3,
+  "generated_at": "2026-07-08T16:14:05.113527+00:00",
+  "total_checked": 15,
+  "total_important": 1,
   "important": [
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - VINAY CHAWLA",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-08T03:47:59+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: VINAY CHAWLA Phone: 9910166133 Email: Suntopboys@gmail.com Project Location: Delhi Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Contact Method: Phone Call Notes: My land is located in nangal punjab and in golden huts dharuhera. I need 2 bedroom sets on both locations. Pls connect and where is your factory located",
-      "attachments": [],
-      "message_id": "0106019f3fd6f38b-ce143e57-f3ab-4a66-8115-7230c37519ec-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - VINAY CHAWLA",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-08T03:47:59+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: VINAY CHAWLA Phone: 9910166133 Email: Suntopboys@gmail.com Project Location: Delhi Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Contact Method: Phone Call Notes: My land is located in nangal punjab and in golden huts dharuhera. I need 2 bedroom sets on both locations. Pls connect and where is your factory located",
-      "attachments": [],
-      "message_id": "0106019f3fd6f38b-ce143e57-f3ab-4a66-8115-7230c37519ec-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in resort development.",
-      "priority": "high"
-    },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
@@ -48,14 +22,14 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -69,7 +43,7 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
