@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08T05:34:58.808850+00:00",
-  "total_checked": 9,
-  "total_important": 4,
+  "generated_at": "2026-07-08T10:34:00.289691+00:00",
+  "total_checked": 14,
+  "total_important": 3,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -30,30 +30,17 @@
       "priority": "high"
     },
     {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - vinod panwar",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-07T20:08:03+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: vinod panwar Phone: 9711027094 Email: vinodpanwar50@gmail.com Project Location: Uttrakhand Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: Phone Call Notes:",
-      "attachments": [],
-      "message_id": "0106019f3e31debf-65090125-2f10-4687-ac6e-be0de19a40f4-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in luxury villa.",
-      "priority": "high"
-    },
-    {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - vinod panwar",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-07T20:08:03+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: vinod panwar Phone: 9711027094 Email: vinodpanwar50@gmail.com Project Location: Uttrakhand Interest: Luxury Villa Budget: Under ₹10 Lakh Timeline: 2 – 6 Months Contact Method: Phone Call Notes:",
+      "subject": "Notification: Saharsh - US Discussion @ Wed 8 Jul 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-07-08T08:59:56+00:00",
+      "snippet": "You have an upcoming event Saharsh - US Discussion Wednesday 8 Jul 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDhUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNDhlMzcyYTM4OGViMmQzN2I2Y2NiMTE4NGRhZjEyMDI4NDlhMjliZg&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDhUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tNDhlMzcyYTM4OGViMmQzN2I2Y2NiMTE4NGRhZjEyMDI4NDlhMjliZg&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Googl",
       "attachments": [],
-      "message_id": "0106019f3e31debf-65090125-2f10-4687-ac6e-be0de19a40f4-000000@ap-northeast-1.amazonses.com",
+      "message_id": "calendar-76e2cb02-da92-440c-8f4f-20a67be1da6a@google.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, interest in luxury villa.",
-      "priority": "high"
+      "reason": "Google Calendar notification for a 'Saharsh' related discussion.",
+      "priority": "medium"
     }
   ],
   "account_status": [
@@ -61,7 +48,7 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -75,14 +62,14 @@
       "label": "IIT KGP Gmail",
       "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 2,
+      "count": 7,
       "error": null
     },
     {
