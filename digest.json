@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T11:23:53.053589+00:00",
-  "total_checked": 14,
-  "total_important": 6,
+  "generated_at": "2026-07-09T16:59:45.737011+00:00",
+  "total_checked": 17,
+  "total_important": 5,
   "important": [
     {
       "account_label": "Saharsh Cabins Gmail",
@@ -32,6 +32,19 @@
     {
       "account_label": "Saharsh.co (Zoho)",
       "account_email": "harshad@saharsh.co",
+      "subject": "The Master Connector Campaign Starts Now!",
+      "from": "\"\\\"Hemu Suvarna\\\" \" <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-07-09T12:53:19+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f46f09286-7e899470-aff8-4d5a-8315-3fcc5fcbe804-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from a BNI Veer chapter member.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
       "subject": "BNI application for Vivek Singh to BNI Veer in Bangalore South East\r\n submitted successfully!",
       "from": "BNI Global Technology Team <bni.notifications@bniconnectglobal.com>",
       "date": "2026-07-09T10:21:56+00:00",
@@ -41,7 +54,7 @@
       ],
       "message_id": "0107019f4665fb66-3d49cf6c-f553-4473-865c-7e2e18799b88-000000@eu-central-1.amazonses.com",
       "important": true,
-      "reason": "BNI Veer chapter member related email.",
+      "reason": "Email from BNI Global Technology Team, related to BNI Veer chapter.",
       "priority": "medium"
     },
     {
@@ -54,33 +67,7 @@
       "attachments": [],
       "message_id": "calendar-8f90734f-5632-4151-b8e9-2e55f83ad373@google.com",
       "important": true,
-      "reason": "Calendar notification for 'Saharsh' discussion, related to core business.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Harshad - You have received a new referral in BNI Connect!",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-09T02:54:22+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f44cc382f-4f14dbe3-065c-40b6-80a3-9436837253b2-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI referral received, indicating a potential lead or connection.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: BNI meeting @ Thu 9 Jul 2026 07:00 - 08:00 (IST) (harrychandak.007@gmail.com)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-07-09T00:59:54+00:00",
-      "snippet": "You have an upcoming event BNI meeting Thursday 9 Jul 2026 ⋅ 07:00 – 08:00 India Standard Time - Kolkata Organiser Harshad Chandak harrychandak.007@gmail.com ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving this email because you are subscribed to Calendar notifications. To stop receiving these emails, go to https://calendar.google.com/calendar/r/settings, select this calendar and change ‘Other notifications’. Forwarding this invitation could allow any recipient to send a response to the organiser, be added to the guest list, invite others regardless of their own invitation status or modify your RSVP. Learn more https://support.google.com/calendar/answer/37135#forwarding",
-      "attachments": [],
-      "message_id": "calendar-f4943583-8551-42f2-9ee4-cbf42be49340@google.com",
-      "important": true,
-      "reason": "Calendar notification for BNI meeting, related to BNI Veer chapter.",
+      "reason": "Google Calendar notification for a Saharsh-related discussion.",
       "priority": "medium"
     }
   ],
@@ -110,14 +97,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 6,
+      "count": 8,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     }
   ]
