@@ -1,74 +1,46 @@
 {
-  "generated_at": "2026-07-09T16:59:45.737011+00:00",
-  "total_checked": 17,
-  "total_important": 5,
+  "generated_at": "2026-07-10T06:24:45.448763+00:00",
+  "total_checked": 7,
+  "total_important": 3,
   "important": [
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Share request for ‘The Golden Mixer - RSVP (Responses)’",
+      "from": "\"Khushboo Gupta (via Google Sheets)\" <drive-shares-dm-noreply@google.com>",
+      "date": "2026-07-10T05:25:05+00:00",
+      "snippet": "khushboo@bni-india.in requests access to an item: The Golden Mixer - RSVP (Responses) https://docs.google.com/spreadsheets/d/1H4WIRzGbZcxaGNWp476LC8BAo5HJwNx1V21kZVA4xEA/edit?usp=sharing&userstoinvite=khushboo@bni-india.in&sharingaction=manageaccess&role=writer&ts=6a508231 You are the owner of this document. To give this user access, click the link above and add them as a collaborator or viewer.",
+      "attachments": [],
+      "message_id": "autogen-java-1edee0ee-5dd2-4b9b-b64e-6bc2dc41cf94@google.com",
+      "important": true,
+      "reason": "Email from a BNI Veer chapter member (Khushboo Gupta).",
+      "priority": "high"
+    },
     {
       "account_label": "Saharsh Cabins Gmail",
       "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Kaustubh",
+      "subject": "New Contact Request - Ajay kumar",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-09T08:40:27+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Kaustubh Phone: 9068807769 Email: kaustubh93@icloud.com Project Location: Agra Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: I am looking forward for apersonal room at my farmland, so wanted to enquire about the costing ad the floor plan.",
+      "date": "2026-07-09T22:36:23+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ajay kumar Phone: 77020 57790 Email: Kvrinfra@gmail.com Project Location: Hyderabad telangana state Interest: Sales Office Budget: ₹50L – ₹1 Crore Timeline: 4 – 8 Weeks Contact Method: Notes: We need to build a site office about 2500.sft",
       "attachments": [],
-      "message_id": "0106019f46091385-87a3f984-28e2-4947-870a-c393c5456601-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f49066578-c1e296ec-911d-4455-ba3f-fa6462448753-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "reason": "New lead/enquiry from Saharsh Cabins contact form.",
       "priority": "high"
     },
     {
       "account_label": "Personal Gmail (harrychandak)",
       "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Kaustubh",
+      "subject": "New Contact Request - Ajay kumar",
       "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-09T08:40:27+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Kaustubh Phone: 9068807769 Email: kaustubh93@icloud.com Project Location: Agra Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: I am looking forward for apersonal room at my farmland, so wanted to enquire about the costing ad the floor plan.",
+      "date": "2026-07-09T22:36:23+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Ajay kumar Phone: 77020 57790 Email: Kvrinfra@gmail.com Project Location: Hyderabad telangana state Interest: Sales Office Budget: ₹50L – ₹1 Crore Timeline: 4 – 8 Weeks Contact Method: Notes: We need to build a site office about 2500.sft",
       "attachments": [],
-      "message_id": "0106019f46091385-87a3f984-28e2-4947-870a-c393c5456601-000000@ap-northeast-1.amazonses.com",
+      "message_id": "0106019f49066578-c1e296ec-911d-4455-ba3f-fa6462448753-000000@ap-northeast-1.amazonses.com",
       "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "reason": "New lead/enquiry from Saharsh Cabins contact form.",
       "priority": "high"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "The Master Connector Campaign Starts Now!",
-      "from": "\"\\\"Hemu Suvarna\\\" \" <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-09T12:53:19+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f46f09286-7e899470-aff8-4d5a-8315-3fcc5fcbe804-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from a BNI Veer chapter member.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI application for Vivek Singh to BNI Veer in Bangalore South East\r\n submitted successfully!",
-      "from": "BNI Global Technology Team <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-09T10:21:56+00:00",
-      "snippet": "",
-      "attachments": [
-        "1783592515252.pdf"
-      ],
-      "message_id": "0107019f4665fb66-3d49cf6c-f553-4473-865c-7e2e18799b88-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from BNI Global Technology Team, related to BNI Veer chapter.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Notification: Saharsh - US Discussion @ Thu 9 Jul 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "date": "2026-07-09T09:00:07+00:00",
-      "snippet": "You have an upcoming event Saharsh - US Discussion Thursday 9 Jul 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDlUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tYzhhNjVmOTEzNWEzYzM5OGViYmNjMTEyMzJkNGQwNmUxNTNhZTU2Nw&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MDlUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tYzhhNjVmOTEzNWEzYzM5OGViYmNjMTEyMzJkNGQwNmUxNTNhZTU2Nw&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google",
-      "attachments": [],
-      "message_id": "calendar-8f90734f-5632-4151-b8e9-2e55f83ad373@google.com",
-      "important": true,
-      "reason": "Google Calendar notification for a Saharsh-related discussion.",
-      "priority": "medium"
     }
   ],
   "account_status": [
@@ -97,14 +69,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 8,
+      "count": 2,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 5,
+      "count": 1,
       "error": null
     }
   ]
