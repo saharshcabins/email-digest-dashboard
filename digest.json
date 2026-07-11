@@ -1,147 +1,42 @@
 {
-  "generated_at": "2026-07-10T16:36:34.335239+00:00",
-  "total_checked": 21,
-  "total_important": 8,
-  "important": [
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Upendra singh",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T15:53:52+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Upendra singh Phone: 8860555073 Email: uppi.singh150@gmail.com Project Location: Uttarakhand Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: Want to know estimate cost for a 2 bhk",
-      "attachments": [],
-      "message_id": "0106019f4cbc3df3-c6224788-21bf-4c18-bddc-04c189cf7c50-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Upendra singh",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T15:53:52+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Upendra singh Phone: 8860555073 Email: uppi.singh150@gmail.com Project Location: Uttarakhand Interest: Luxury Cottage Budget: Under ₹10 Lakh Timeline: Flexible Contact Method: WhatsApp Notes: Want to know estimate cost for a 2 bhk",
-      "attachments": [],
-      "message_id": "0106019f4cbc3df3-c6224788-21bf-4c18-bddc-04c189cf7c50-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Sujit Harode",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T12:50:49+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Sujit Harode Phone: 9284921651 Email: sujit.harode@gmail.com Project Location: Tadoba Interest: Luxury Cottage Budget: ₹3 Crore+ (Resort / Multi-Unit) Timeline: Flexible Contact Method: Phone Call Notes:",
-      "attachments": [],
-      "message_id": "0106019f4c14a4fe-b78b9688-4b6e-4c08-8c81-3adf2f91c3c6-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Sujit Harode",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T12:50:49+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Sujit Harode Phone: 9284921651 Email: sujit.harode@gmail.com Project Location: Tadoba Interest: Luxury Cottage Budget: ₹3 Crore+ (Resort / Multi-Unit) Timeline: Flexible Contact Method: Phone Call Notes:",
-      "attachments": [],
-      "message_id": "0106019f4c14a4fe-b78b9688-4b6e-4c08-8c81-3adf2f91c3c6-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Saharsh Cabins Gmail",
-      "account_email": "saharshcabins@gmail.com",
-      "subject": "New Contact Request - Varun",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T09:46:34+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Varun Phone: 9838003946 Email: varun4339@gmail.com Project Location: Ranikhet Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Flexible Contact Method: WhatsApp Notes: Wish to build meditation homes At Ranikhet Approx 10 units",
-      "attachments": [],
-      "message_id": "0106019f4b6bf727-fa58e745-867c-42bf-a68d-47cf557f5610-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form, expressing interest in resort development.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "New Contact Request - Varun",
-      "from": "Saharsh Cabins <enquiries@saharsh.co>",
-      "date": "2026-07-10T09:46:34+00:00",
-      "snippet": "NEW CONTACT FORM SUBMISSION Name: Varun Phone: 9838003946 Email: varun4339@gmail.com Project Location: Ranikhet Interest: Resort Development Budget: ₹25L – ₹50L Timeline: Flexible Contact Method: WhatsApp Notes: Wish to build meditation homes At Ranikhet Approx 10 units",
-      "attachments": [],
-      "message_id": "0106019f4b6bf727-fa58e745-867c-42bf-a68d-47cf557f5610-000000@ap-northeast-1.amazonses.com",
-      "important": true,
-      "reason": "New lead from Saharsh Cabins contact form about resort development.",
-      "priority": "high"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Bangalore South East - BNI Veer - Abhinandan  R Membership Renewal\r\n has been Approved in Bangalore South East",
-      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-10T12:17:56+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f4bf68970-a39a5ad9-c835-4f60-9582-3348eea7d807-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "Email from a BNI Veer chapter member regarding membership renewal.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Personal Gmail (harrychandak)",
-      "account_email": "harrychandak.007@gmail.com",
-      "subject": "Share request for ‘The Golden Mixer - RSVP (Responses)’",
-      "from": "\"Khushboo Gupta (via Google Sheets)\" <drive-shares-dm-noreply@google.com>",
-      "date": "2026-07-10T05:25:05+00:00",
-      "snippet": "khushboo@bni-india.in requests access to an item: The Golden Mixer - RSVP (Responses) https://docs.google.com/spreadsheets/d/1H4WIRzGbZcxaGNWp476LC8BAo5HJwNx1V21kZVA4xEA/edit?usp=sharing&userstoinvite=khushboo@bni-india.in&sharingaction=manageaccess&role=writer&ts=6a508231 You are the owner of this document. To give this user access, click the link above and add them as a collaborator or viewer.",
-      "attachments": [],
-      "message_id": "autogen-java-1edee0ee-5dd2-4b9b-b64e-6bc2dc41cf94@google.com",
-      "important": true,
-      "reason": "Share request from BNI Veer chapter member.",
-      "priority": "medium"
-    }
-  ],
+  "generated_at": "2026-07-11T05:25:12.105193+00:00",
+  "total_checked": 1,
+  "total_important": 0,
+  "important": [],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 3,
+      "count": 0,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 8,
+      "count": 0,
       "error": null
     },
     {
       "label": "IIT KGP Gmail",
       "email": "harshadchandak.iitkgp@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 9,
+      "count": 0,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null
     }
   ]
