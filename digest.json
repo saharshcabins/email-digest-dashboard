@@ -1,21 +1,87 @@
 {
-  "generated_at": "2026-07-13T05:51:23.394368+00:00",
-  "important": [],
-  "total_checked": 0,
-  "total_important": 0,
+  "generated_at": "2026-07-13T11:36:27.109511+00:00",
+  "total_checked": 8,
+  "total_important": 5,
+  "important": [
+    {
+      "account_label": "Saharsh.co (Zoho)",
+      "account_email": "harshad@saharsh.co",
+      "subject": "Harshad - You have received a new referral in BNI Connect!",
+      "from": "BNI Notifications <bni.notifications@bniconnectglobal.com>",
+      "date": "2026-07-13T09:28:33+00:00",
+      "snippet": "",
+      "attachments": [],
+      "message_id": "0107019f5ace8db4-316c2a97-a3fa-4eeb-ac97-4aa37fa3d21d-000000@eu-central-1.amazonses.com",
+      "important": true,
+      "reason": "Email from BNI Veer chapter member (BNI Notifications).",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - ANURAG SINGH",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-13T07:29:49+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: ANURAG SINGH Phone: 7018056520 Email: anurag.singh.74787@gmail.com Project Location: Himachal pradeah Interest: Luxury Cottage Budget: ₹10L – ₹25L Timeline: Flexible Contact Method: Phone Call Notes: Looking for prefab cottages for hilly areas",
+      "attachments": [],
+      "message_id": "0106019f5a61d698-e8f1915b-5a95-4192-85c1-164a5738cd65-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - ANURAG SINGH",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-13T07:29:49+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: ANURAG SINGH Phone: 7018056520 Email: anurag.singh.74787@gmail.com Project Location: Himachal pradeah Interest: Luxury Cottage Budget: ₹10L – ₹25L Timeline: Flexible Contact Method: Phone Call Notes: Looking for prefab cottages for hilly areas",
+      "attachments": [],
+      "message_id": "0106019f5a61d698-e8f1915b-5a95-4192-85c1-164a5738cd65-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury cottage.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Saharsh Cabins Gmail",
+      "account_email": "saharshcabins@gmail.com",
+      "subject": "New Contact Request - Murali",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-13T06:52:33+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Murali Phone: 8074809669 Email: vudatha.group@outlook.com Project Location: Uppada village , Kakinada Interest: Luxury Villa Budget: ₹50L – ₹1 Crore Timeline: Flexible Contact Method: WhatsApp Notes: My site is agri paddy land soil, looking to build a family home with sustainable way.",
+      "attachments": [],
+      "message_id": "0106019f5a3fb7ac-adfb2143-c038-403c-a862-eadc855de162-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury villa.",
+      "priority": "high"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "New Contact Request - Murali",
+      "from": "Saharsh Cabins <enquiries@saharsh.co>",
+      "date": "2026-07-13T06:52:33+00:00",
+      "snippet": "NEW CONTACT FORM SUBMISSION Name: Murali Phone: 8074809669 Email: vudatha.group@outlook.com Project Location: Uppada village , Kakinada Interest: Luxury Villa Budget: ₹50L – ₹1 Crore Timeline: Flexible Contact Method: WhatsApp Notes: My site is agri paddy land soil, looking to build a family home with sustainable way.",
+      "attachments": [],
+      "message_id": "0106019f5a3fb7ac-adfb2143-c038-403c-a862-eadc855de162-000000@ap-northeast-1.amazonses.com",
+      "important": true,
+      "reason": "New lead from Saharsh Cabins contact form, expressing interest in luxury villa.",
+      "priority": "high"
+    }
+  ],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null
     },
     {
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 4,
       "error": null
     },
     {
@@ -29,14 +95,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null
     }
   ]
