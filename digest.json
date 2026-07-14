@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T10:15:08.102603+00:00",
-  "total_checked": 10,
-  "total_important": 3,
+  "generated_at": "2026-07-14T15:54:48.062016+00:00",
+  "total_checked": 12,
+  "total_important": 1,
   "important": [
     {
       "account_label": "Personal Gmail (harrychandak)",
@@ -15,34 +15,6 @@
       "important": true,
       "reason": "Google Calendar notification for a 'Saharsh' related discussion.",
       "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "Bangalore South East - BNI Veer - Sunil Jangir has Renewed their\r\n Membership with Changes to their Profile",
-      "from": "Sys Admin <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-14T06:15:28+00:00",
-      "snippet": "",
-      "attachments": [],
-      "message_id": "0107019f5f442163-ea6ae01f-489f-43f5-836c-e63d8c74ebb2-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI Veer chapter member notification.",
-      "priority": "medium"
-    },
-    {
-      "account_label": "Saharsh.co (Zoho)",
-      "account_email": "harshad@saharsh.co",
-      "subject": "BNI Veer - Sunil Jangir A Membership Renewal has been received",
-      "from": "Sys Admin <bni.notifications@bniconnectglobal.com>",
-      "date": "2026-07-14T06:15:27+00:00",
-      "snippet": "",
-      "attachments": [
-        "1784009726495.pdf"
-      ],
-      "message_id": "0107019f5f441dfc-100005a4-a2ac-4086-ac77-d8287d44f06e-000000@eu-central-1.amazonses.com",
-      "important": true,
-      "reason": "BNI Veer chapter member notification.",
-      "priority": "medium"
     }
   ],
   "account_status": [
@@ -50,7 +22,7 @@
       "label": "Saharsh Cabins Gmail",
       "email": "saharshcabins@gmail.com",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null
     },
     {
@@ -71,14 +43,14 @@
       "label": "Outlook",
       "email": "harshad.chandak@outlook.com",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
       "label": "Saharsh.co (Zoho)",
       "email": "harshad@saharsh.co",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": null
     }
   ]
