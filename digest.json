@@ -1,8 +1,35 @@
 {
-  "generated_at": "2026-07-15T05:13:11.261085+00:00",
-  "total_checked": 7,
-  "total_important": 0,
-  "important": [],
+  "generated_at": "2026-07-15T10:18:57.600833+00:00",
+  "total_checked": 9,
+  "total_important": 2,
+  "important": [
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Notification: Saharsh <> Tadoba @ Wed 15 Jul 2026 15:00 - 16:00 (IST)\r\n (Harshad Chandak)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-07-15T08:59:58+00:00",
+      "snippet": "You have an upcoming event Saharsh <> Tadoba Wednesday 15 Jul 2026 ⋅ 15:00 – 16:00 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/dbz-szys-yqp?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser Harshad Chandak Sanika Warad View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=YjFiMDJrNmNkaGJtNHB1MjhmYjBkbDhqNm8gaGFycnljaGFuZGFrLjAwN0Bt&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2M5N2JjYzUzYTgzMDQ2MGEyNzZmNDU5NjRmYmUwMmQ4ODQ0MTZlYg&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=YjFiMDJrNmNkaGJtNHB1MjhmYjBkbDhqNm8gaGFycnljaGFuZGFrLjAwN0Bt&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2M5N2JjYzUzYTgzMDQ2MGEyNzZmNDU5NjRmYmUwMmQ4ODQ0MTZlYg&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Google Calendar: https://calendar.google.com/calendar/ You are receiving thi",
+      "attachments": [],
+      "message_id": "calendar-3556a5ba-2fac-4d04-aa7f-3f6ffcb6ffc6@google.com",
+      "important": true,
+      "reason": "Calendar notification for 'Saharsh' project meeting.",
+      "priority": "medium"
+    },
+    {
+      "account_label": "Personal Gmail (harrychandak)",
+      "account_email": "harrychandak.007@gmail.com",
+      "subject": "Notification: Saharsh - US Discussion @ Wed 15 Jul 2026 15:00 - 15:30\r\n (IST) (Harshad Chandak)",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "date": "2026-07-15T08:59:55+00:00",
+      "snippet": "You have an upcoming event Saharsh - US Discussion Wednesday 15 Jul 2026 ⋅ 15:00 – 15:30 India Standard Time - Kolkata Join with Google Meet https://meet.google.com/ong-uaee-ixs?hs=224 Organiser syedvikhar9@gmail.com syedvikhar9@gmail.com Guests syedvikhar9@gmail.com- organiser shubham@dashhire.co Sanika Warad Harshad Chandak View all event details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MTVUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2Q4YjYyMGM4MmMwNzhmYmQ3N2FlZjhiYzdhN2I1MjkzZWQzNTJhNA&ctz=Asia%2FKolkata&hl=en_GB&es=1 Reply for harrychandak.007@gmail.com and view more details https://calendar.google.com/calendar/event?action=VIEW&eid=bDl2NTdhdjViZGlhbzhjN3YxMmZmc2t2MmVfMjAyNjA3MTVUMDkzMDAwWiBoYXJyeWNoYW5kYWsuMDA3QG0&tok=MjEjc3llZHZpa2hhcjlAZ21haWwuY29tN2Q4YjYyMGM4MmMwNzhmYmQ3N2FlZjhiYzdhN2I1MjkzZWQzNTJhNA&ctz=Asia%2FKolkata&hl=en_GB&es=1 Your attendance is optional. ~~//~~ Invitation from Goog",
+      "attachments": [],
+      "message_id": "calendar-8f26e7e6-893b-41b9-b12b-4abdb7a6ad11@google.com",
+      "important": true,
+      "reason": "Calendar notification for 'Saharsh' project discussion.",
+      "priority": "medium"
+    }
+  ],
   "account_status": [
     {
       "label": "Saharsh Cabins Gmail",
@@ -15,7 +42,7 @@
       "label": "Personal Gmail (harrychandak)",
       "email": "harrychandak.007@gmail.com",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null
     },
     {
